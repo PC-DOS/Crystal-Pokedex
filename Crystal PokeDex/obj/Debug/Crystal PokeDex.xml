@@ -1,0 +1,223 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CrystalPokeDex
+</name>
+</assembly>
+<members>
+<member name="P:Crystal_PokeDex.AppResources.ResourceManager">
+	<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member><member name="P:Crystal_PokeDex.AppResources.Culture">
+	<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member><member name="P:Crystal_PokeDex.AppResources.ResourceFlowDirection">
+	<summary>
+  查詢類似 LeftToRight 的當地語系化字串。
+</summary>
+</member><member name="P:Crystal_PokeDex.AppResources.ResourceLanguage">
+	<summary>
+  查詢類似 us-EN 的當地語系化字串。
+</summary>
+</member><member name="P:Crystal_PokeDex.AppResources.ApplicationTitle">
+	<summary>
+  查詢類似我的應用程式的當地語系化字串。
+</summary>
+</member><member name="P:Crystal_PokeDex.AppResources.SampleProperty">
+	<summary>
+  查詢類似範例執行階段屬性值的當地語系化字串。
+</summary>
+</member><member name="T:Crystal_PokeDex.AppResources">
+	<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member><member name="M:Crystal_PokeDex.PageItemSearch.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageCalculator.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PagePokemonMoveList.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.Browser.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageAbilityDetails.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageAblities.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.MoveDetail.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageSettings.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageTileLauncher.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Crystal_PokeDex.LocalizedStrings">
+	<summary>
+ 提供字串資源的存取權。
+ </summary>
+</member><member name="M:Crystal_PokeDex.PageMoveSearch.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageStateInfo.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PivotPageSettings.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageItemDetails.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageBlank.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageMoves.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageNatues.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PagePokemonDetails.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageAbilityOnlineSearchCfg.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageSearchReq.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageTypes.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageAbout.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:Crystal_PokeDex.MainViewModel.Items">
+	<summary>
+ ItemViewModel 物件的集合。
+ </summary>
+</member><member name="P:Crystal_PokeDex.MainViewModel.SampleProperty">
+	<summary>
+ 範例 ViewModel 屬性; 這個屬性是用在檢視中，以使用繫結來顯示其值
+ </summary>
+	<returns></returns>
+</member><member name="P:Crystal_PokeDex.MainViewModel.LocalizedSampleProperty">
+	<summary>
+ 傳回當地語系化字串的範例屬性
+ </summary>
+</member><member name="M:Crystal_PokeDex.MainViewModel.LoadData">
+	<summary>
+ 建立並加入一些 ItemViewModel 物件到 Items 集合。
+ </summary>
+</member><member name="M:Crystal_PokeDex.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageCalcXY.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:Crystal_PokeDex.App.ViewModel">
+	<summary>
+ 供檢視繫結的靜態 ViewModel。
+ </summary>
+	<returns>MainViewModel 物件。</returns>
+</member><member name="P:Crystal_PokeDex.App.RootFrame">
+	<summary>
+ 提供簡單的方法，來存取電話應用程式的根畫面。
+ </summary>
+	<returns>電話應用程式的根畫面。</returns>
+</member><member name="M:Crystal_PokeDex.App.#ctor">
+	<summary>
+ Application 物件的建構函式。
+ </summary>
+</member><member name="P:Crystal_PokeDex.ItemViewModel.LineOne">
+	<summary>
+ 範例 ViewModel 屬性; 這個屬性是用在檢視中，以使用繫結來顯示其值。
+ </summary>
+	<returns></returns>
+</member><member name="P:Crystal_PokeDex.ItemViewModel.LineTwo">
+	<summary>
+ 範例 ViewModel 屬性; 這個屬性是用在檢視中，以使用繫結來顯示其值。
+ </summary>
+	<returns></returns>
+</member><member name="P:Crystal_PokeDex.ItemViewModel.LineThree">
+	<summary>
+ 範例 ViewModel 屬性; 這個屬性是用在檢視中，以使用繫結來顯示其值。
+ </summary>
+	<returns></returns>
+</member><member name="M:Crystal_PokeDex.PagePokeSearch.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageAbilitiySearch.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageMoveOnlineSaerchCfg.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:Crystal_PokeDex.My.Resources.ResPokemons.ResourceManager">
+	<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member><member name="P:Crystal_PokeDex.My.Resources.ResPokemons.Culture">
+	<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member><member name="T:Crystal_PokeDex.My.Resources.ResPokemons">
+	<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member><member name="M:Crystal_PokeDex.PageItemOnlineSearchCfg.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PageItems.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Crystal_PokeDex.PagePokemons.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

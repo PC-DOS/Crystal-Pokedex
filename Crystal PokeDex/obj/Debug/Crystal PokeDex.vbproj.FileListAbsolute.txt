@@ -1,0 +1,398 @@
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\App.g.i.vb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+E:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\App.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\MoveDetail.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+E:\WPProjects\Crystal PokeDex - XY&ORAS\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\App.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+E:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\App.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+C:\WPProjects\Crystal PokeDex - XY\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\App.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+C:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\App.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PivotPageSettings.g.i.vb
+F:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageBlank.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\App.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageBlank.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Page1.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\PivotPageSettings.g.i.vb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+F:\WPProjects\Crystal PokeDex - Release (2.5.0)\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\App.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Browser.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\MainPage.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageBlank.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilitySearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoves.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageMoveSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageNatures.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemonDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemonMoveList.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokemons.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PagePokeSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageStateInfo.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTileLauncher.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PivotPageSettings.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.ResPokemons.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.vbproj.GenerateResource.Cache
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.pdb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\ApplicationIcon.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.pdb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal PokeDex.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\AppManifest.xaml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Crystal_PokeDex_Debug_AnyCPU.xap
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Windows.winmd
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\XapCacheFile.xml

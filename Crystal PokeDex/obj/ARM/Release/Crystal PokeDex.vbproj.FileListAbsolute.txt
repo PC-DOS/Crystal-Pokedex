@@ -1,0 +1,55 @@
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\ApplicationIcon.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Assets\Tiles\IconicTileSmall.png
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Crystal PokeDex.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Crystal PokeDex.pdb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Crystal PokeDex.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\AppManifest.xaml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Crystal_PokeDex_Release_ARM.xap
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Coding4Fun.Toolkit.Audio.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Coding4Fun.Toolkit.Controls.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Coding4Fun.Toolkit.Net.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Coding4Fun.Toolkit.Storage.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Microsoft.Phone.Controls.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\ARM\Release\Windows.winmd
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\App.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Browser.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\MainPage.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageBlank.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageMoveDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageAbilitySearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageAbilityDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageAbilityOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageAbilities.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageAbout.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageCalculator.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageCalcXY.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageItemDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageItemOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageItems.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageItemSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageMoveOnlineSearchCfg.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageMoves.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageMoveSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageNatures.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PagePokemonDetails.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PagePokemonMoveList.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PagePokemons.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PagePokeSearch.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageSearchReq.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageSettings.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageStateInfo.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageTileLauncher.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PageTypes.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\PivotPageSettings.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal PokeDex.g.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal_PokeDex.AppResources.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal_PokeDex.ResPokemons.resources
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal PokeDex.vbproj.GenerateResource.Cache
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal PokeDex.dll
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal PokeDex.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\Crystal PokeDex.pdb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\ARM\Release\XapCacheFile.xml
