@@ -189,7 +189,6 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.xml
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.pdb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\XapCacheFile.xml
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\My Project\WMAppManifest.xml
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.vbprojResolveAssemblyReference.cache
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\App.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Browser.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\MainPage.g.i.vb
@@ -200,8 +199,6 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageAbilityDetails.g.i
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageAbilityOnlineSearchCfg.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageAbilities.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageAbout.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculator.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalcXY.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageItemDetails.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageItemOnlineSearchCfg.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageItems.g.i.vb
@@ -218,5 +215,9 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageSearchReq.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageSettings.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageStateInfo.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageTileLauncher.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageTypes.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PivotPageSettings.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorSM.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorBW.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorXY.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.vbprojResolveAssemblyReference.cache
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageTypes.g.i.vb

@@ -41,79 +41,82 @@
 
             <!--Panorama 項目 1-->
             <phone:PanoramaItem Header="常用">
-                <Grid x:Name="grid1" HorizontalAlignment="Left" Height="501" Margin="-1,-33,-1,0" VerticalAlignment="Top" Width="422">
-                    <Grid x:Name="rectPokemons" Background="#FF3291E1" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtPokemos" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="神奇寶貝列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgPokemons" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/PM.png"/>
-                    </Grid>
-                    <Grid x:Name="rectMoves" Background="#FFE1D932" HorizontalAlignment="Left" Height="100" Margin="17,115,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtMoves" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="技能列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgMoves" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Moves.png"/>
-                    </Grid>
-                    <Grid x:Name="rectItems" Background="#FFE13A32" HorizontalAlignment="Left" Height="100" Margin="17,220,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtItems" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="道具列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgItems" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Items.png"/>
-                    </Grid>
-                    <Button x:Name="Test" Content="Button" HorizontalAlignment="Left" Height="79" Margin="94,365,0,0" VerticalAlignment="Top" Width="229" Visibility="Collapsed"/>
-                </Grid>
+                <ScrollViewer Margin="-1,-33,-1,0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Grid x:Name="rectPokemons" Background="#FF3291E1" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtPokemos" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="神奇寶貝列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgPokemons" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/PM.png"/>
+                        </Grid>
+                        <Grid x:Name="rectMoves" Background="#FFE1D932" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtMoves" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="技能列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgMoves" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Moves.png"/>
+                        </Grid>
+                        <Grid x:Name="rectItems" Background="#FFE13A32" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtItems" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="道具列表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgItems" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Items.png"/>
+                        </Grid>
+                        <Button x:Name="Test" Content="Button" HorizontalAlignment="Left" Height="79" VerticalAlignment="Top" Visibility="Collapsed"/>
+                    </StackPanel>
+                </ScrollViewer>
                 <!--文字會換行的單行清單-->
             </phone:PanoramaItem>
 
             <!--Panorama 項目 2-->
             <phone:PanoramaItem Header="屬性">
                 <!--文字會換行的單行清單-->
-                <Grid x:Name="grid2" HorizontalAlignment="Left" Height="501" Margin="-1,-33,-1,0" VerticalAlignment="Top" Width="422">
-                    <Grid x:Name="rectTypes" Background="#FFE1C932" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtTypes" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="屬性相剋表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgTypes" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/TypesICO.png"/>
-                    </Grid>
-                    <Grid x:Name="rectNatures" Background="#FFC7C7C7" HorizontalAlignment="Left" Height="100" Margin="17,115,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtNatures" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="性格效果表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgNatures" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Nature.png"/>
-                    </Grid>
-                    <Grid x:Name="rectAbilities" Background="#FFAE00FF" HorizontalAlignment="Left" Height="100" Margin="17,220,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtAbilities" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="特性表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgAbilities" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Abilities.png"/>
-                    </Grid>
-                </Grid>
+                <ScrollViewer Margin="-1,-33,-1,0">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Grid x:Name="rectTypes" Background="#FFE1C932" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtTypes" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="屬性相剋表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgTypes" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/TypesICO.png"/>
+                        </Grid>
+                        <Grid x:Name="rectNatures" Background="#FFC7C7C7" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtNatures" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="性格效果表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgNatures" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Nature.png"/>
+                        </Grid>
+                        <Grid x:Name="rectAbilities" Background="#FFAE00FF" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtAbilities" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="特性表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgAbilities" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Abilities.png"/>
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="額外">
                 <!--文字會換行的單行清單-->
-                <Grid x:Name="grid4" HorizontalAlignment="Left" Height="501" Margin="-1,-33,-1,0" VerticalAlignment="Top" Width="422">
-                    <Grid x:Name="rectCalc" Background="#FF32E1C9" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtCalc" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="計算器 (BW)" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgCalc" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Calc.png"/>
-                    </Grid>
-                    <Grid x:Name="rectCalcXY" Background="#FFE1A932" HorizontalAlignment="Left" Height="100" Margin="17,115,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtCalcXY" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="計算器 (XY)" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgCalcXY" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/CalcXY.png"/>
-                    </Grid>
-                    <Grid x:Name="rectSettings" Background="#FF002EFF" HorizontalAlignment="Left" Height="100" Margin="17,220,0,0" VerticalAlignment="Top" Width="374">
-                        <TextBlock x:Name="txtSettings" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="設定" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                        <Image x:Name="imgSettings" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Settings.png"/>
-                    </Grid>
-                    <!--<Grid x:Name="rectNatures" Background="#FFC7C7C7" HorizontalAlignment="Left" Height="100" Margin="17,115,0,0" VerticalAlignment="Top" Width="374"/>
+                <ScrollViewer Margin="-1,-33,-1,0">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Grid x:Name="rectCalcBW" Background="#FF32E1C9" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtCalcBW" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="計算器 (BW)" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgCalcBW" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/CalcBW.png"/>
+                        </Grid>
+                        <Grid x:Name="rectCalcXY" Background="#FFE1A932" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtCalcXY" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="計算器 (XY)" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgCalcXY" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/CalcXY.png"/>
+                        </Grid>
+                        <Grid x:Name="rectCalcSM" Background="#FFF50000" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtCalcSM" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="計算器 (SM)" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgCalcSM" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/CalcSM.png"/>
+                        </Grid>
+                        <Grid x:Name="rectSettings" Background="#FF002EFF" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374">
+                            <TextBlock x:Name="txtSettings" HorizontalAlignment="Left" Height="64" Margin="92,18,0,0" TextWrapping="Wrap" Text="設定" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
+                            <Image x:Name="imgSettings" HorizontalAlignment="Left" Height="92" Margin="0,6,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Settings.png"/>
+                        </Grid>
+                        <!--<Grid x:Name="rectNatures" Background="#FFC7C7C7" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374"/>
                     <TextBlock x:Name="txtNatures" HorizontalAlignment="Left" Height="64" Margin="110,132,0,0" TextWrapping="Wrap" Text="性格效果表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                    <Image x:Name="imgNatures" HorizontalAlignment="Left" Height="92" Margin="17,120,0,0" VerticalAlignment="Top" Width="95" Source="/Nature.png"/>
-                    <Grid x:Name="rectAbilities" Background="#FFAE00FF" HorizontalAlignment="Left" Height="100" Margin="17,219,0,0" VerticalAlignment="Top" Width="374"/>
+                    <Image x:Name="imgNatures" HorizontalAlignment="Left" Height="92" Margin="17,120,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Nature.png"/>
+                    <Grid x:Name="rectAbilities" Background="#FFAE00FF" HorizontalAlignment="Left" Height="100" Margin="17,10,0,0" VerticalAlignment="Top" Width="374"/>
                     <TextBlock x:Name="txtAbilities" HorizontalAlignment="Left" Height="64" Margin="110,236,0,0" TextWrapping="Wrap" Text="特性表" VerticalAlignment="Top" Width="281" FontSize="45" Foreground="White"/>
-                    <Image x:Name="imgAbilities" HorizontalAlignment="Left" Height="92" Margin="17,224,0,0" VerticalAlignment="Top" Width="95" Source="/Abilities.png"/>-->
-                </Grid>
+                    <Image x:Name="imgAbilities" HorizontalAlignment="Left" Height="92" Margin="17,224,0,0" VerticalAlignment="Top" Width="95" Source="/Assets/MainPage/Abilities.png"/>-->
+                    </StackPanel>
+                </ScrollViewer>
             </phone:PanoramaItem>
             <!--Panorama 項目 3-->
             <phone:PanoramaItem x:Name="pitAbout" Header="關於">
-                <Grid x:Name="grid3" HorizontalAlignment="Left" Height="509" Margin="11,-36,0,0" VerticalAlignment="Top" Width="409">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="70*"/>
-                        <ColumnDefinition Width="327*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="107*"/>
-                        <RowDefinition Height="402*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock HorizontalAlignment="Left" Height="35" Margin="5,1,-37,0" TextWrapping="Wrap" Text="Crystal PokeDex" VerticalAlignment="Top" Width="441" FontSize="25" Grid.ColumnSpan="2"/>
-                    <TextBlock HorizontalAlignment="Left" Height="35" Margin="5,36,-37,0" TextWrapping="Wrap" Text="PC-DOS Workshop" VerticalAlignment="Top" Width="441" FontSize="25" Grid.ColumnSpan="2"/>
-                    <TextBlock HorizontalAlignment="Left" Height="366" Margin="4,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="405" FontSize="25" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <ScrollViewer Margin="-1,-33,-1,0">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <TextBlock HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="Crystal PokeDex" VerticalAlignment="Top" FontSize="25" Margin="17,0,0,0"/>
+                        <TextBlock HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="PC-DOS Workshop" VerticalAlignment="Top" FontSize="25" Margin="17,0,0,0"/>
+                        <TextBlock HorizontalAlignment="Left" Height="366" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Margin="17,0,0,0">
                     	<Run Text="幫助您收集和檢視神奇寶貝的資訊。"/>
                     	<LineBreak/>
                     	<Run/>
@@ -135,10 +138,10 @@
                     	<Run Text="Creatures Inc."/>
                     	<LineBreak/>
                     	<Run Text="Game Freak Inc.   "/>
-                    </TextBlock>
-                    <Grid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="64" Margin="0,333,0,0" Grid.Row="1" VerticalAlignment="Top" Width="387"/>
-                    <Button x:Name="btnMore" Grid.ColumnSpan="2" Content="其他資訊" HorizontalAlignment="Left" Height="75" Margin="-8,335,0,-8" Grid.Row="1" VerticalAlignment="Top" Width="150"/>
-                </Grid>
+                        </TextBlock>
+                        <Button x:Name="btnMore" Content="其他資訊" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="150"/>
+                    </StackPanel>
+                </ScrollViewer>
                 <!--文字會換行的單行清單-->
             </phone:PanoramaItem>
         </phone:Panorama>

@@ -16,11 +16,16 @@
     <!--LayoutRoot 是放置所有頁面的根資料格-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <!--樞紐分析控制項-->
-        <phone:Pivot x:Name="pivMove" Title="CRYSTAL POKEDEX">
+        <phone:Pivot x:Name="pivData" Title="CRYSTAL POKEDEX">
             <!--樞紐分析項目 1-->
             <phone:PivotItem Header="基本">
                 <Grid x:Name="GridBasic">
-                    <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Height="458" Margin="0,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Background="Black" Foreground="#DEFFFFFF" FontSize="25"  >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="txtName" Grid.Row="0" Height="58" Margin="12,0" TextWrapping="Wrap" FontSize="40"/>
+                    <TextBox x:Name="txtDescription" Grid.Row="1" Margin="0" TextWrapping="Wrap" Background="Black" Foreground="#DEFFFFFF" FontSize="25"  >
                         <TextBox.Style>
                             <Style  TargetType="TextBox">
                                 <Setter Property="Template">
@@ -98,73 +103,111 @@
                             </Style>
                         </TextBox.Style>
                     </TextBox>
-                    <TextBlock x:Name="txtName" HorizontalAlignment="Left" Height="58" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" FontSize="40"/>
-
                 </Grid>
             </phone:PivotItem>
 
             <!--樞紐分析項目 2-->
             <phone:PivotItem Header="譯名">
-                <ScrollViewer HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
-                    <Grid x:Name="gridTrans" HorizontalAlignment="Left" Height="715" VerticalAlignment="Top" Width="456">
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                            <RowDefinition Height="0*"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="71*"/>
-                            <ColumnDefinition Width="81*"/>
-                        </Grid.ColumnDefinitions>
-                        <Image x:Name="imgROC" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHT.png" Stretch="Fill"/>
-                        <TextBlock x:Name="lblROC" HorizontalAlignment="Left" Height="28" Margin="163,0,0,0" TextWrapping="Wrap" Text="中文 (繁體)" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtROC" HorizontalAlignment="Left" Height="76" Margin="153,28,0,0" TextWrapping="NoWrap"  Text="水君" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"  VerticalScrollBarVisibility="Auto"  />
-                        <Image x:Name="imgROC_Copy" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHS.png" Margin="0,109,0,0" Stretch="Fill"/>
-                        <TextBlock x:Name="txtROC_Copy" HorizontalAlignment="Left" Height="28" Margin="163,109,0,0" TextWrapping="Wrap" Text="中文 (簡體)" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtPRC" HorizontalAlignment="Left" Height="76" Margin="153,137,0,0" TextWrapping="NoWrap"  VerticalScrollBarVisibility="Auto" Text="水君" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
-                        <Image x:Name="imgROC_Copy1" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/USA.jpg" Margin="0,218,0,0" Stretch="Fill"/>
-                        <TextBlock x:Name="txtROC_Copy1" HorizontalAlignment="Left" Height="28" Margin="163,218,0,0" TextWrapping="Wrap" Text="英文" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtENU" HorizontalAlignment="Left" Height="76" Margin="153,246,0,0" TextWrapping="NoWrap"  VerticalScrollBarVisibility="Auto" Text="Suicune" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
-                        <Image x:Name="imgROC_Copy2" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHT-O.png" Margin="0,436,0,0" Stretch="Fill"/>
-                        <TextBlock x:Name="txtROC_Copy2" HorizontalAlignment="Left" Height="28" Margin="163,436,0,0" TextWrapping="Wrap" Text="中文 (繁體，官方翻譯)" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtCHTO" HorizontalAlignment="Left" Height="76" Margin="153,464,0,0" TextWrapping="NoWrap"  VerticalScrollBarVisibility="Auto" Text="スイクン" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
-                        <Image x:Name="imgROC_Copy3" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/JPN.png" Stretch="Fill" Margin="0,327,0,0"/>
-                        <TextBlock x:Name="lblROC_Copy" HorizontalAlignment="Left" Height="28" Margin="163,327,0,0" TextWrapping="Wrap" Text="日文" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtJPN" HorizontalAlignment="Left" Height="76" Margin="153,355,0,0" TextWrapping="NoWrap"  VerticalScrollBarVisibility="Auto" Text="スイクン" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
-                        <Image x:Name="imgROC_Copy4" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHS-O.png" Margin="0,545,0,0" Stretch="Fill"/>
-                        <TextBlock x:Name="txtROC_Copy3" HorizontalAlignment="Left" Height="28" Margin="163,545,0,0" TextWrapping="Wrap" Text="中文 (簡體，官方翻譯)" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2">
-                                <TextBlock.Foreground>
-                                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                                </TextBlock.Foreground>
-                            </TextBlock>
-                        <TextBox x:Name="txtCHSO" HorizontalAlignment="Left" Height="76" Margin="153,573,0,0" TextWrapping="NoWrap"  VerticalScrollBarVisibility="Auto" Text="Suicune" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
-                    </Grid>
+                <ScrollViewer>
+                    <StackPanel x:Name="gridTrans"  Orientation="Vertical">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHT.png" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="中文 (繁體)">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtROC" Height="76" TextWrapping="NoWrap" Text="水君" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHS.png" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="中文 (簡體)">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtPRC" Height="76" TextWrapping="NoWrap" Text="水君" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/USA.jpg" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="英文">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtENU" Height="76" TextWrapping="NoWrap" Text="Suicune" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/JPN.png" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="日文">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtJPN" Height="76" TextWrapping="NoWrap" Text="スイクン" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHT-O.png" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="中文 (繁體，官方翻譯)">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtCHTO" Height="76" TextWrapping="NoWrap" Text="水君" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="153" Source="/Nations/CHS-O.png" Stretch="Fill" Margin="10,0,0,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" TextWrapping="Wrap" Text="中文 (簡體，官方翻譯)">
+                                    <TextBlock.Foreground>
+                                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                                    </TextBlock.Foreground>
+                                </TextBlock>
+                                <TextBox x:Name="txtCHSO" Height="76" TextWrapping="NoWrap" Text="水君" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
                 </ScrollViewer>
             </phone:PivotItem>
         </phone:Pivot>
     </Grid>
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True"  Mode="Default"   IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton Text="搜尋" IsEnabled="True" IconUri="/search.png" Click="ApplicationBarIconButton_Click" />
+            <shell:ApplicationBarIconButton Text="搜尋" IsEnabled="True" IconUri="/Assets/MenuIcons/search.png" Click="ApplicationBarIconButton_Click" />
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>

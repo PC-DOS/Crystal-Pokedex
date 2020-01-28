@@ -28,9 +28,7 @@
 
         <!--ContentPanel - 其他內容置於此-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Grid HorizontalAlignment="Left" Height="636" VerticalAlignment="Top" Width="456">
-                <ListBox x:Name="lstPokemonMoves" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastForegroundBrush}" Margin="0,0,0,10" FontSize="35" />
-            </Grid>
+            <ListBox x:Name="lstPokemonMoves" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastForegroundBrush}" BorderBrush="{StaticResource PhoneTextBoxBrush}" Margin="12" FontSize="35" BorderThickness="2.5" />
         </Grid>
     </Grid>
 

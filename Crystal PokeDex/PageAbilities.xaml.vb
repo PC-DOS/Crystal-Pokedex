@@ -49,8 +49,8 @@ Partial Public Class PageAblities
                 Exit Sub
             End If
             lpNumInt = CLng(lpNum)
-            If (1 <= lpNumInt) And (lpNumInt <= lstItems.Items.Count) Then
-                lstItems.SelectedIndex = lpNumInt - 1
+            If (1 <= lpNumInt) And (lpNumInt <= lstAbilities.Items.Count) Then
+                lstAbilities.SelectedIndex = lpNumInt - 1
             Else
                 MessageBox.Show("輸入的編號超出允許的範圍。", "錯誤", MessageBoxButton.OK)
                 Exit Sub
@@ -68,7 +68,7 @@ Partial Public Class PageAblities
                 lpNum = e.Result
                 lpNumInt = CLng(lpNum)
                 If (1 <= lpNumInt) And (lpNumInt <= 721) Then
-                    lstItems.SelectedIndex = lpNumInt - 1
+                    lstAbilities.SelectedIndex = lpNumInt - 1
                 Else
                     MessageBox.Show("輸入的編號超出允許的範圍。", "錯誤", MessageBoxButton.OK)
                     Exit Sub
@@ -77,8 +77,8 @@ Partial Public Class PageAblities
                 Dim imgSelPkMn As Media.Imaging.BitmapImage
                 imgSelPkMn = New Imaging.BitmapImage
                 Dim strSel As String
-                strSel = lstItems.SelectedItems.Item(0).ToString
-                strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+                strSel = lstAbilities.SelectedItems.Item(0).ToString
+                strSel = strSel.Split(" ")(0)
                 If 25 = 245 Then
                     MessageBox.Show(strSel)
                 End If
@@ -106,15 +106,15 @@ Partial Public Class PageAblities
     Private Sub PageAblities_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
         Select Case UIAbilityChineseDisplayConfig
             Case ChineseDisplayConfig.DefaultConfig
-                lstItems.ItemsSource = ListAbilityCHT_Official
+                lstAbilities.ItemsSource = ListAbilityCHT_Official
             Case ChineseDisplayConfig.InformalChineseSimplified
-                lstItems.ItemsSource = ListAbilityCHS
+                lstAbilities.ItemsSource = ListAbilityCHS
             Case ChineseDisplayConfig.InformalChineseTraditional
-                lstItems.ItemsSource = ListAbilityCHT
+                lstAbilities.ItemsSource = ListAbilityCHT
             Case ChineseDisplayConfig.OfficialChineseSimplified
-                lstItems.ItemsSource = ListAbilityCHS_Official
+                lstAbilities.ItemsSource = ListAbilityCHS_Official
             Case ChineseDisplayConfig.OfficialChineseTraditional
-                lstItems.ItemsSource = ListAbilityCHT_Official
+                lstAbilities.ItemsSource = ListAbilityCHT_Official
         End Select
         Exit Sub
         Dim ItemAbilities As New List(Of String)
@@ -312,37 +312,37 @@ Partial Public Class PageAblities
             .Add("190     終結大地")
             .Add("191     變化氣流")
         End With
-        lstItems.ItemsSource = ItemAbilities
+        lstAbilities.ItemsSource = ItemAbilities
     End Sub
     Private Sub ApplicationBarIconButton_Click_2(sender As Object, e As EventArgs)
-        lstItems.SelectedIndex = 0
+        lstAbilities.SelectedIndex = 0
     End Sub
 
     Private Sub ApplicationBarIconButton_Click_3(sender As Object, e As EventArgs)
-        lstItems.SelectedIndex = lstItems.Items.Count - 1
+        lstAbilities.SelectedIndex = lstAbilities.Items.Count - 1
     End Sub
 
-    Private Sub lstItems_DoubleTap(sender As Object, e As GestureEventArgs) Handles lstItems.DoubleTap
-        If lstItems.SelectedIndex < 0 Then
+    Private Sub lstAbilities_DoubleTap(sender As Object, e As GestureEventArgs) Handles lstAbilities.DoubleTap
+        If lstAbilities.SelectedIndex < 0 Then
             Exit Sub
         End If
-        If lstItems.SelectedIndex < 0 Or lstItems.SelectedIndex > lstItems.Items.Count - 1 Then
+        If lstAbilities.SelectedIndex < 0 Or lstAbilities.SelectedIndex > lstAbilities.Items.Count - 1 Then
             Exit Sub
         End If
         Dim strSel As String
-        strSel = lstItems.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = lstAbilities.SelectedItems.Item(0).ToString
+        strSel = strSel.Split(" ")(0)
         AbilitySelectionNumber = strSel
         NavigationService.Navigate(New Uri("/PageAbilityDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
-    Private Sub lstItems_Tap(sender As Object, e As GestureEventArgs) Handles lstItems.Tap
-        If lstItems.SelectedIndex < 0 Then
+    Private Sub lstAbilities_Tap(sender As Object, e As GestureEventArgs) Handles lstAbilities.Tap
+        If lstAbilities.SelectedIndex < 0 Then
             Exit Sub
         End If
         Dim strSel As String
-        strSel = lstItems.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = lstAbilities.SelectedItems.Item(0).ToString
+        strSel = strSel.Split(" ")(0)
     End Sub
 
     Private Sub ApplicationBarIconButton_Click(sender As Object, e As EventArgs)
@@ -361,7 +361,7 @@ Partial Public Class PageAblities
         With InputBoxEx
             AddHandler .Completed, AddressOf InputPrompt_Completed
             .Title = "定位到編號"
-            .Message = "請輸入您需要的特性的編號。" & vbCrLf & "範圍: 001-" & lstItems.Items.Count
+            .Message = "請輸入您需要的特性的編號。" & vbCrLf & "範圍: 001-" & lstAbilities.Items.Count
             .InputScope = InputScopeNumber
             .Show()
         End With

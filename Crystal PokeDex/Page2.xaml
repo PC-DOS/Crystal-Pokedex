@@ -38,9 +38,9 @@
     </Grid>
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton Text="關音樂" IconUri="/Images/cancel.png" Click="ApplicationBarIconButton_Click" />
-            <shell:ApplicationBarIconButton Text="刷新" IconUri="/Images/refresh.png" Click="ApplicationBarIconButton_Click_1" />
-            <shell:ApplicationBarIconButton Text="打電話" IconUri="/Images/call.png" Click="ApplicationBarIconButton_Click_2" />
+            <shell:ApplicationBarIconButton Text="關音樂" IconUri="/Assets/MenuIcons/cancel.png" Click="ApplicationBarIconButton_Click" />
+            <shell:ApplicationBarIconButton Text="刷新" IconUri="/Assets/MenuIcons/refresh.png" Click="ApplicationBarIconButton_Click_1" />
+            <shell:ApplicationBarIconButton Text="打電話" IconUri="/Assets/MenuIcons/call.png" Click="ApplicationBarIconButton_Click_2" />
             <shell:ApplicationBar.MenuItems  >
                 <shell:ApplicationBarMenuItem Text="飛行模式設定" IsEnabled="True" Click="ApplicationBarMenuItem_Click_2"  />
                 <shell:ApplicationBarMenuItem Text="藍牙功能設定" IsEnabled="True" Click="ApplicationBarMenuItem_Click_3" />

@@ -6,7 +6,7 @@
     End Sub
 
     Private Sub PageMoveSearch_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
-        txtTitle.Text = lpSearchRequest & "的搜尋結果"
+        txtTitle.Text = lpSearchRequest & " 的搜尋結果"
         If lpSearchRequest = "" Then
             lstMoves.ItemsSource = CurrentMovesList
         Else
@@ -662,7 +662,7 @@
         End If
         Dim strSel As String
         strSel = lstMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         MoveSelectionNumber = CLng(strSel) - 1
         NavigationService.Navigate(New Uri("/PageMoveDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
@@ -673,7 +673,7 @@
         End If
         Dim strSel As String
         strSel = lstMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         MoveSelectionNumber = CLng(strSel) - 1
         'MoveSelectionNumber = Convert.ToInt64((lstMoves.SelectedItems.Item(0).ToString))
     End Sub

@@ -145,8 +145,12 @@
     <Compile Include="modSettings.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="MultiChineseProvider.vb" />
+    <Compile Include="libTypeRepresentativeColorProvider.vb" />
     <Compile Include="PageBlank.xaml.vb">
       <DependentUpon>PageBlank.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageCalculatorSM.xaml.vb">
+      <DependentUpon>PageCalculatorSM.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageMoveDetails.xaml.vb">
       <DependentUpon>PageMoveDetails.xaml</DependentUpon>
@@ -166,11 +170,11 @@
     <Compile Include="PageAbout.xaml.vb">
       <DependentUpon>PageAbout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PageCalculator.xaml.vb">
-      <DependentUpon>PageCalculator.xaml</DependentUpon>
+    <Compile Include="PageCalculatorBW.xaml.vb">
+      <DependentUpon>PageCalculatorBW.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PageCalcXY.xaml.vb">
-      <DependentUpon>PageCalcXY.xaml</DependentUpon>
+    <Compile Include="PageCalculatorXY.xaml.vb">
+      <DependentUpon>PageCalculatorXY.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageItemDetails.xaml.vb">
       <DependentUpon>PageItemDetails.xaml</DependentUpon>
@@ -259,6 +263,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PageCalculatorSM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PageMoveDetails.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -283,11 +291,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PageCalculator.xaml">
+    <Page Include="PageCalculatorBW.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PageCalcXY.xaml">
+    <Page Include="PageCalculatorXY.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -375,34 +383,73 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Abilities.png" />
-    <Content Include="Airplane.png" />
-    <Content Include="Alert.png" />
-    <Content Include="Arrow.png" />
-    <Content Include="back.png" />
-    <Content Include="Bluetooth.png" />
-    <Content Include="Calc.png" />
-    <Content Include="Calculator\Calculator.htm" />
-    <Content Include="CalcXY.png" />
-    <Content Include="Calc_XY\Calc_XY.htm" />
-    <Content Include="Celluar.png" />
+    <Content Include="Assets\MainPage\Abilities.png" />
+    <Content Include="Assets\MainPage\Calc.png" />
+    <Content Include="Assets\MainPage\CalcBW.png" />
+    <Content Include="Assets\MainPage\CalcSM.png" />
+    <Content Include="Assets\MainPage\CalcXY.png" />
+    <Content Include="Assets\MainPage\Items.png" />
+    <Content Include="Assets\MainPage\Moves.png" />
+    <Content Include="Assets\MainPage\Nature.png" />
+    <Content Include="Assets\MainPage\PM.png" />
+    <Content Include="Assets\MainPage\Settings.png" />
+    <Content Include="Assets\MainPage\TypesICO.png" />
+    <Content Include="Assets\MenuIcons\back.png" />
+    <Content Include="Assets\MenuIcons\buttom.png" />
+    <Content Include="Assets\MenuIcons\call.png" />
+    <Content Include="Assets\MenuIcons\cancel.png" />
+    <Content Include="Assets\MenuIcons\next.png" />
+    <Content Include="Assets\MenuIcons\refresh.png" />
+    <Content Include="Assets\MenuIcons\search.png" />
+    <Content Include="Assets\MenuIcons\top.png" />
+    <Content Include="Assets\PageNatures\Natures.png" />
+    <Content Include="Assets\PagePokemonDetails\Arrow.png" />
+    <Content Include="Assets\PagePokemonDetails\NoImage.png" />
+    <Content Include="Assets\PageSharedResources\Alert.png" />
+    <Content Include="Assets\PageSharedResources\Construction.png" />
+    <Content Include="Assets\PageSharedResources\Info.png" />
+    <Content Include="Assets\PageTypes\Types.png" />
+    <Content Include="Assets\PivotPageSettings\Airplane.png" />
+    <Content Include="Assets\PivotPageSettings\Bluetooth.png" />
+    <Content Include="Assets\PivotPageSettings\Celluar.png" />
+    <Content Include="Assets\PivotPageSettings\Location.png" />
+    <Content Include="Assets\PivotPageSettings\Lockscreen.png" />
+    <Content Include="Assets\PivotPageSettings\MailAccounts.png" />
+    <Content Include="Assets\PivotPageSettings\NFC.png" />
+    <Content Include="Assets\PivotPageSettings\Notifications.png" />
+    <Content Include="Assets\PivotPageSettings\Office.png" />
+    <Content Include="Assets\PivotPageSettings\Power.png" />
+    <Content Include="Assets\PivotPageSettings\Rotation.png" />
+    <Content Include="Assets\PivotPageSettings\WiFi.png" />
+    <Content Include="Assets\UnusedAssets\About.png" />
+    <Content Include="Assets\UnusedAssets\BackGround.jpg" />
+    <Content Include="Assets\UnusedAssets\Dex.png" />
+    <Content Include="Assets\UnusedAssets\Extra.png" />
+    <Content Include="Assets\UnusedAssets\Flashlight.png" />
+    <Content Include="Assets\UnusedAssets\goto.png" />
+    <Content Include="Assets\UnusedAssets\ICON.png" />
+    <Content Include="Assets\UnusedAssets\Image1.png" />
+    <Content Include="Assets\UnusedAssets\Image2.png" />
+    <Content Include="Assets\UnusedAssets\Lock.png" />
+    <Content Include="Assets\UnusedAssets\Stop.png" />
+    <Content Include="Assets\UnusedAssets\Untitled1.png" />
+    <Content Include="CalculatorBW\CalculatorBW.htm" />
+    <Content Include="CalculatorSM\CalculatorSM.htm" />
+    <Content Include="CalculatorXY\CalculatorXY.htm" />
     <Content Include="Coding4Fun.Toolkit.Audio.dll" />
     <Content Include="Coding4Fun.Toolkit.Controls.dll" />
     <Content Include="Coding4Fun.Toolkit.Net.dll" />
     <Content Include="Coding4Fun.Toolkit.Storage.dll" />
-    <Content Include="Construction.png" />
-    <Content Include="Dex.png" />
-    <Content Include="buttom.png" />
-    <Content Include="ICON.png" />
+    <Content Include="Design\Microsoft.Phone.Controls.Toolkit.Design.dll" />
+    <Content Include="Design\Microsoft.Phone.Controls.Toolkit.VisualStudio.Design.dll" />
+    <Content Include="Icons\ApplicationBar.Cancel.png" />
+    <Content Include="Icons\ApplicationBar.Check.png" />
     <Content Include="Images\call.png" />
     <Content Include="Images\cancel.png" />
     <Content Include="Images\refresh.png" />
-    <Content Include="Info.png" />
-    <Content Include="Items.png" />
-    <Content Include="Location.png" />
-    <Content Include="Lockscreen.png" />
-    <Content Include="MailAccounts.png" />
-    <Content Include="Moves.png" />
+    <Content Include="Microsoft.Phone.Controls.Toolkit.dll" />
+    <Content Include="Microsoft.Phone.Controls.Toolkit.pdb" />
+    <Content Include="Microsoft.Phone.Controls.Toolkit.xml" />
     <Content Include="MS_PIC\019\Alola.png" />
     <Content Include="MS_PIC\020\Alola.png" />
     <Content Include="MS_PIC\026\Alola.png" />
@@ -648,14 +695,6 @@
     <Content Include="Nations\PRC.jpg" />
     <Content Include="Nations\ROC.png" />
     <Content Include="Nations\USA.jpg" />
-    <Content Include="Nature.png" />
-    <Content Include="Natures.png" />
-    <Content Include="next.png" />
-    <Content Include="NFC.png" />
-    <Content Include="NoImage.png" />
-    <Content Include="Notifications.png" />
-    <Content Include="Office.png" />
-    <Content Include="PM.png" />
     <Content Include="PokemonsL\001.png" />
     <Content Include="PokemonsL\002.png" />
     <Content Include="PokemonsL\003.png" />
@@ -4166,17 +4205,9 @@
     <Content Include="Pokemons\807.png" />
     <Content Include="Pokemons\808.png" />
     <Content Include="Pokemons\809.png" />
-    <Content Include="Power.png" />
     <Content Include="ReadMe.Coding4Fun.Toolkit.txt" />
-    <Content Include="Rotation.png" />
-    <Content Include="search.png" />
-    <Content Include="Settings.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
-    <Content Include="Types.png" />
-    <Content Include="TypesICO.png" />
-    <Content Include="top.png" />
-    <Content Include="WiFi.png" />
     <Content Include="[Content_Types].xml" />
     <Resource Include="Assets\PanoramaBackground.png" />
     <Content Include="Assets\AlignmentGrid.png" />

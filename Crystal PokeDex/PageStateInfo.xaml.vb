@@ -132,7 +132,19 @@
                 txtSVT.Text = .TOTAL.ToString
             End With
             With SharedStateInformation
-                txtClass.Text = .lpType
+                txtType.Text = .lpType
+                Dim PMType As TypeData = ParseTypeString(.lpType)
+                If PMType.IsType2Available Then
+                    gridType2.Visibility = System.Windows.Visibility.Visible
+                    txtType1.Text = PMType.TypeString1
+                    gridType1.Background = New SolidColorBrush(Color.FromArgb(255, PMType.TypeColor1.Red, PMType.TypeColor1.Green, PMType.TypeColor1.Blue))
+                    txtType2.Text = PMType.TypeString2
+                    gridType2.Background = New SolidColorBrush(Color.FromArgb(255, PMType.TypeColor2.Red, PMType.TypeColor2.Green, PMType.TypeColor2.Blue))
+                Else
+                    gridType2.Visibility = System.Windows.Visibility.Collapsed
+                    txtType1.Text = PMType.TypeString1
+                    gridType1.Background = New SolidColorBrush(Color.FromArgb(255, PMType.TypeColor1.Red, PMType.TypeColor1.Green, PMType.TypeColor1.Blue))
+                End If
                 txtHeight.Text = .lpHeight
                 txtWeight.Text = .lpWeight
                 If .lpAbility1 <> "---" And .lpAbility1 <> "ERROR" Then

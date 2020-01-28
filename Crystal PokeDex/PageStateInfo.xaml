@@ -28,65 +28,131 @@
 
         <!--ContentPanel - 其他內容置於此-->
         <Grid x:Name="ContentPanel" Margin="12,104,0,0" Grid.RowSpan="2">
-            <Rectangle x:Name="rectImgMale_Copy" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="175" Margin="10,34,0,0" Stroke="White" VerticalAlignment="Top" Width="175"/>
-            <TextBlock x:Name="txtImgMale_Copy" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="外貌" VerticalAlignment="Top" Width="171" Margin="10,0,0,0">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtNum_Copy" HorizontalAlignment="Left" Height="25" Margin="190,0,0,0" TextWrapping="Wrap" Text="屬性" VerticalAlignment="Top" Width="207" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtClass" HorizontalAlignment="Left" Height="34" Margin="190,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontSize="25"/>
-            <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="175" Margin="10,34,0,0" VerticalAlignment="Top" Width="175"/>
-            <TextBlock x:Name="txtNum_Copy7" HorizontalAlignment="Left" Height="25" Margin="10,225,0,0" TextWrapping="Wrap" Text="特性 1" VerticalAlignment="Top" Width="134" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtAbility1" HorizontalAlignment="Left" Height="34" Margin="10,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy9" HorizontalAlignment="Left" Height="25" Margin="149,225,0,0" TextWrapping="Wrap" Text="特性 2" VerticalAlignment="Top" Width="134" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtAbility2" HorizontalAlignment="Left" Height="34" Margin="149,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy11" HorizontalAlignment="Left" Height="25" Margin="288,225,0,0" TextWrapping="Wrap" Text="隱藏特性" VerticalAlignment="Top" Width="134" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtAbility3" HorizontalAlignment="Left" Height="34" Margin="288,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy13" HorizontalAlignment="Left" Height="25" Margin="10,296,0,0" TextWrapping="Wrap" Text="種族值" VerticalAlignment="Top" Width="134" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtNum_Copy15" HorizontalAlignment="Left" Height="34" Margin="10,321,0,0" TextWrapping="Wrap" Text="體力" VerticalAlignment="Top" Width="190" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy17" HorizontalAlignment="Left" Height="34" Margin="10,355,0,0" TextWrapping="Wrap" Text="攻擊" VerticalAlignment="Top" Width="190" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy19" HorizontalAlignment="Left" Height="34" Margin="10,389,0,0" TextWrapping="Wrap" Text="防禦" VerticalAlignment="Top" Width="190" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy21" HorizontalAlignment="Left" Height="34" Margin="10,423,0,0" TextWrapping="Wrap" Text="特殊攻擊" VerticalAlignment="Top" Width="134" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy23" HorizontalAlignment="Left" Height="34" Margin="10,457,0,0" TextWrapping="Wrap" Text="特殊防禦" VerticalAlignment="Top" Width="134" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy25" HorizontalAlignment="Left" Height="34" Margin="10,491,0,0" TextWrapping="Wrap" Text="速度" VerticalAlignment="Top" Width="190" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy34" HorizontalAlignment="Left" Height="34" Margin="10,525,0,0" TextWrapping="Wrap" Text="總計" VerticalAlignment="Top" Width="190" FontSize="25"/>
-            <Rectangle Fill="#FFAFAFAF" HorizontalAlignment="Left" Height="238" Margin="142,321,0,0" Stroke="White" VerticalAlignment="Top" Width="312"/>
-            <ProgressBar x:Name="prgSVATK" HorizontalAlignment="Left" Height="24" Margin="142,360,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVATK" HorizontalAlignment="Left" Height="34" Margin="393,355,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVHP" HorizontalAlignment="Left" Height="24" Margin="142,326,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVHP" HorizontalAlignment="Left" Height="34" Margin="393,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVDEF" HorizontalAlignment="Left" Height="24" Margin="142,394,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVDEF" HorizontalAlignment="Left" Height="34" Margin="393,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVSA" HorizontalAlignment="Left" Height="24" Margin="142,428,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVSA" HorizontalAlignment="Left" Height="34" Margin="393,423,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVSD" HorizontalAlignment="Left" Height="24" Margin="142,462,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVSD" HorizontalAlignment="Left" Height="34" Margin="393,457,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVSP" HorizontalAlignment="Left" Height="24" Margin="142,496,0,0" VerticalAlignment="Top" Width="246" Maximum="255"/>
-            <TextBlock x:Name="txtSVSP" HorizontalAlignment="Left" Height="29" Margin="393,491,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <ProgressBar x:Name="prgSVT" HorizontalAlignment="Left" Height="24" Margin="142,530,0,0" VerticalAlignment="Top" Width="246" Maximum="1530"/>
-            <TextBlock x:Name="txtSVT" HorizontalAlignment="Left" Height="29" Margin="393,525,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="25"/>
-            <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="0,559,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" Background="Black" Foreground="#DEFFFFFF" FontSize="25" Height="105" Visibility="Collapsed"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="12,0,0,0">
+                <TextBlock TextWrapping="Wrap" Text="外貌" VerticalAlignment="Top">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <Grid Background="#FFF4F4F5" HorizontalAlignment="Left" Height="175" VerticalAlignment="Top" Width="175">
+                    <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="175" VerticalAlignment="Top" Width="175"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" Margin="10,0,12,0">
+                <TextBlock TextWrapping="Wrap" Text="屬性" FontSize="20">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock x:Name="txtType" Height="34" TextWrapping="Wrap" FontSize="25" Visibility="Collapsed"/>
+                <StackPanel Height="34" Orientation="Horizontal">
+                    <Grid x:Name="gridType1">
+                        <TextBlock x:Name="txtType1" Height="34" TextWrapping="Wrap" FontSize="25" Foreground="White" Margin="10,0" />
+                    </Grid>
+                    <Grid x:Name="gridType2" Margin="5,0,0,0">
+                        <TextBlock x:Name="txtType2" Height="34" TextWrapping="Wrap" FontSize="25" Foreground="White" Margin="10,0"/>
+                    </Grid>
+                </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="身高" FontSize="20">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock x:Name="txtHeight" Height="34" TextWrapping="Wrap" FontSize="25"/>
+                <TextBlock TextWrapping="Wrap" Text="體重" FontSize="20">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock x:Name="txtWeight" Height="34" TextWrapping="Wrap" FontSize="25"/>
+            </StackPanel>
+            <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="12,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock TextWrapping="Wrap" Text="特性 1" FontSize="20">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock x:Name="txtAbility1" Height="34" TextWrapping="Wrap" FontSize="25"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Vertical">
+                    <TextBlock TextWrapping="Wrap" Text="特性 2" FontSize="20">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock x:Name="txtAbility2" Height="34" TextWrapping="Wrap" FontSize="25"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <TextBlock TextWrapping="Wrap" Text="隱藏特性" FontSize="20">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock x:Name="txtAbility3" Height="34" TextWrapping="Wrap" FontSize="25"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical" Margin="12,0">
+                <TextBlock TextWrapping="Wrap" Text="種族值" FontSize="20">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <Grid x:Name="GridPV">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Rectangle Fill="#FFAFAFAF" Grid.Row="0" Grid.RowSpan="7" Grid.Column="1" Grid.ColumnSpan="2" Stroke="White"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="體力" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="0" Grid.Column="1" x:Name="prgSVHP" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="0" Grid.Column="2" x:Name="txtSVHP" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="攻擊" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="1" Grid.Column="1" x:Name="prgSVATK" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Grid.Column="2" x:Name="txtSVATK" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="防禦" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="2" Grid.Column="1" x:Name="prgSVDEF" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Grid.Column="2" x:Name="txtSVDEF" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="特殊攻擊" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="3" Grid.Column="1" x:Name="prgSVSA" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="3" Grid.Column="2" x:Name="txtSVSA" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="特殊防禦" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="4" Grid.Column="1" x:Name="prgSVSD" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="4" Grid.Column="2" x:Name="txtSVSD" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="速度" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="5" Grid.Column="1" x:Name="prgSVSP" Maximum="255" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="5" Grid.Column="2" x:Name="txtSVSP" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="總計" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <ProgressBar Grid.Row="6" Grid.Column="1" x:Name="prgSVT" Maximum="1530" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="6" Grid.Column="2" x:Name="txtSVT" TextWrapping="Wrap" Text="245" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                </Grid>
+            </StackPanel>
+            <TextBox x:Name="txtDescription" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap" Background="Black" Foreground="#DEFFFFFF" FontSize="25" Visibility="Collapsed">
                 <TextBox.Style>
                     <Style  TargetType="TextBox">
                         <Setter Property="Template">
@@ -165,18 +231,6 @@
                 </TextBox.Style>
             </TextBox>
             <ProgressBar x:Name="prgEXP" HorizontalAlignment="Left" Height="59" Margin="53,326,0,0" VerticalAlignment="Top" Width="147" Visibility="Collapsed" />
-            <TextBlock x:Name="txtNum_Copy2" HorizontalAlignment="Left" Height="25" Margin="190,64,0,0" TextWrapping="Wrap" Text="身高" VerticalAlignment="Top" Width="134" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtHeight" HorizontalAlignment="Left" Height="34" Margin="190,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="25"/>
-            <TextBlock x:Name="txtNum_Copy4" HorizontalAlignment="Left" Height="25" Margin="190,128,0,0" TextWrapping="Wrap" Text="體重" VerticalAlignment="Top" Width="117" FontSize="20">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
-                </TextBlock.Foreground>
-            </TextBlock>
-            <TextBlock x:Name="txtWeight" HorizontalAlignment="Left" Height="34" Margin="190,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="25"/>
         </Grid>
     </Grid>
 

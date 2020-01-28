@@ -20,63 +20,76 @@
             <!--樞紐分析項目 1-->
             <phone:PivotItem Header="程式">
                 <Grid>
-                    <ScrollViewer HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
-                        <Grid Height="855" Width="451">
-                            <CheckBox x:Name="chkUseCHS" Content="神奇寶貝名字使用簡體中文&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="10,42,0,0"/>
-                            <CheckBox x:Name="chkUseOfficial" Content="神奇寶貝名字使用官方翻譯&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="10,114,0,0"/>
-                            <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" TextWrapping="Wrap" Text="翻譯" VerticalAlignment="Top" Width="431">
+                    <ScrollViewer>
+                        <StackPanel Orientation="Vertical" Margin="12,0,0,0">
+                            <TextBlock TextWrapping="Wrap" Text="翻譯">
                                 <TextBlock.Foreground>
                                     <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,523,0,0" TextWrapping="Wrap" Text="種族值顯示進度列配色" VerticalAlignment="Top" Width="431">
+                            <CheckBox x:Name="chkUseCHS" Content="神奇寶貝名字使用簡體中文" RenderTransformOrigin="0.124,0.245"/>
+                            <CheckBox x:Name="chkUseOfficial" Content="神奇寶貝名字使用官方翻譯" RenderTransformOrigin="0.124,0.245"/>
+                            <CheckBox x:Name="chkUseCHS_Ability" Content="特性名字使用簡體中文" RenderTransformOrigin="0.124,0.245"/>
+                            <CheckBox x:Name="chkUseOfficial_Ability" Content="特性名字使用官方翻譯" RenderTransformOrigin="0.124,0.245"/>
+                            <CheckBox x:Name="chkUseCHS_Moves" Content="技能名字使用簡體中文" RenderTransformOrigin="0.124,0.245"/>
+                            <CheckBox x:Name="chkUseOfficial_Moves" Content="技能名字使用官方翻譯" RenderTransformOrigin="0.124,0.245"/>
+                            <TextBlock TextWrapping="Wrap" Text="種族值顯示進度列配色" Margin="0,25,0,0">
                                 <TextBlock.Foreground>
                                     <SolidColorBrush Color="{StaticResource PhoneSubtleColor}"/>
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Grid HorizontalAlignment="Left" Height="256" Margin="19,555,-40,0" VerticalAlignment="Top" Width="472">
+                            <Grid x:Name="GridPV">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="0*"/>
-                                    <ColumnDefinition Width="99*"/>
-                                    <ColumnDefinition Width="373*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock x:Name="txtNum_Copy27" HorizontalAlignment="Left" Height="34" Margin="3,1,0,0" TextWrapping="Wrap" Text="體力" VerticalAlignment="Top" Width="190" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy29" HorizontalAlignment="Left" Height="34" Margin="3,35,0,0" TextWrapping="Wrap" Text="攻擊" VerticalAlignment="Top" Width="190" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy31" HorizontalAlignment="Left" Height="34" Margin="3,69,0,0" TextWrapping="Wrap" Text="防禦" VerticalAlignment="Top" Width="190" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy33" HorizontalAlignment="Left" Height="34" Margin="3,103,0,0" TextWrapping="Wrap" Text="特殊攻擊" VerticalAlignment="Top" Width="134" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy28" HorizontalAlignment="Left" Height="34" Margin="3,137,0,0" TextWrapping="Wrap" Text="特殊防禦" VerticalAlignment="Top" Width="134" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy30" HorizontalAlignment="Left" Height="34" Margin="3,171,0,0" TextWrapping="Wrap" Text="速度" VerticalAlignment="Top" Width="190" FontSize="25" Grid.ColumnSpan="3"/>
-                                <TextBlock x:Name="txtNum_Copy32" HorizontalAlignment="Left" Height="34" Margin="3,205,0,0" TextWrapping="Wrap" Text="總計" VerticalAlignment="Top" Width="190" FontSize="25" Grid.ColumnSpan="3"/>
-                                <Rectangle Fill="#FFAFAFAF" HorizontalAlignment="Left" Height="238" Margin="17,1,0,0" Stroke="White" VerticalAlignment="Top" Width="312" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVATK" HorizontalAlignment="Left" Height="24" Margin="17,40,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVATK" HorizontalAlignment="Left" Height="34" Margin="263,35,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVHP" HorizontalAlignment="Left" Height="24" Margin="17,6,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVHP" HorizontalAlignment="Left" Height="34" Margin="263,1,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVDEF" HorizontalAlignment="Left" Height="24" Margin="17,74,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVDEF" HorizontalAlignment="Left" Height="34" Margin="263,69,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVSA" HorizontalAlignment="Left" Height="24" Margin="17,108,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVSA" HorizontalAlignment="Left" Height="34" Margin="263,103,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVSD" HorizontalAlignment="Left" Height="24" Margin="17,142,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVSD" HorizontalAlignment="Left" Height="34" Margin="263,137,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVSP" HorizontalAlignment="Left" Height="24" Margin="17,176,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVSP" HorizontalAlignment="Left" Height="34" Margin="263,171,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
-                                <ProgressBar x:Name="prgSVT" HorizontalAlignment="Left" Height="24" Margin="17,210,0,0" VerticalAlignment="Top" Width="246" Maximum="255" Value="245" Grid.Column="2"/>
-                                <TextBlock x:Name="txtSVT" HorizontalAlignment="Left" Height="34" Margin="263,205,0,0" TextWrapping="Wrap" Text="編輯" VerticalAlignment="Top" Width="53" FontSize="25" TextDecorations="Underline" Foreground="#DE0000F5" Grid.Column="2"/>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Rectangle Fill="#FFAFAFAF" Grid.Row="0" Grid.RowSpan="7" Grid.Column="1" Grid.ColumnSpan="2" Stroke="White"/>
+                                <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="體力" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="0" Grid.Column="1" x:Name="prgSVHP" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" x:Name="txtSVHP" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="攻擊" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="1" Grid.Column="1" x:Name="prgSVATK" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="1" Grid.Column="2" x:Name="txtSVATK" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="防禦" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="2" Grid.Column="1" x:Name="prgSVDEF" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="2" Grid.Column="2" x:Name="txtSVDEF" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="特殊攻擊" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="3" Grid.Column="1" x:Name="prgSVSA" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="3" Grid.Column="2" x:Name="txtSVSA" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="特殊防禦" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="4" Grid.Column="1" x:Name="prgSVSD" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="4" Grid.Column="2" x:Name="txtSVSD" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="速度" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="5" Grid.Column="1" x:Name="prgSVSP" Value="245" Maximum="255" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="5" Grid.Column="2" x:Name="txtSVSP" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="總計" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <ProgressBar Grid.Row="6" Grid.Column="1" x:Name="prgSVT" Value="1470" Maximum="1530" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Row="6" Grid.Column="2" x:Name="txtSVT" TextWrapping="Wrap" Text="编辑" TextDecorations="Underline" Foreground="Blue" FontSize="25" Margin="0,0,5,0" VerticalAlignment="Center"/>
                             </Grid>
-                            <ProgressBar x:Name="prgExp" HorizontalAlignment="Left" Height="58" Margin="48,479,0,0" VerticalAlignment="Top" Width="309" Visibility="Collapsed"/>
-                            <Grid x:Name="gridWarning" HorizontalAlignment="Left" Height="112" Margin="0,484,0,0" VerticalAlignment="Top" Width="451" Background="#FF00AFF5" Visibility="Collapsed">
-                                <Image HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="62" Source="/Alert.png"/>
-                                <TextBlock HorizontalAlignment="Left" Height="112" Margin="77,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" Foreground="White">
+                            <ProgressBar x:Name="prgExp" Visibility="Collapsed"/>
+                            <Grid x:Name="gridWarning" Background="#FF00AFF5" Visibility="Collapsed">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Column="0" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="62" Source="/Assets/PageSharedResources/Alert.png"/>
+                                <TextBlock Grid.Column="1" TextWrapping="Wrap" Foreground="White">
                                 	<Run Text="在修改神奇寶貝名稱的顯示方式之後, 神奇寶貝列表可能失去響應或出現異常. 此時的因應措施是重新啟動應用程式."/>
                                 	<LineBreak/>
                                 	<Run Text="本警告將在錯誤得到修正之後被移除."/>
                                 </TextBlock>
                             </Grid>
-                            <CheckBox x:Name="chkUseCHS_Ability" Content="特性名字使用簡體中文&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="10,186,0,0"/>
-                            <CheckBox x:Name="chkUseOfficial_Ability" Content="特性名字使用官方翻譯&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="10,258,0,0"/>
-                            <CheckBox x:Name="chkUseCHS_Moves" Content="技能名字使用簡體中文&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="11,330,0,0"/>
-                            <CheckBox x:Name="chkUseOfficial_Moves" Content="技能名字使用官方翻譯&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="440" RenderTransformOrigin="0.124,0.245" Margin="11,402,0,0"/>
-                        </Grid>
+                        </StackPanel>
                     </ScrollViewer>
                 </Grid>
             </phone:PivotItem>
@@ -86,73 +99,96 @@
                 <Grid x:Name="sysPanel" HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="453">
                     <Grid x:Name="gridAirPlaneMode" HorizontalAlignment="Left" Height="125" Margin="10,0,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 飛航模式" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Airplane.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Airplane.png"/>
                     </Grid>
                     <Grid x:Name="gridCellular" HorizontalAlignment="Left" Height="125" Margin="270,0,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 行動數據+SIM" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Celluar.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Celluar.png"/>
                     </Grid>
                     <Grid x:Name="gridWLAN" HorizontalAlignment="Left" Height="125" Margin="140,0,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" WLAN" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/WiFi.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/WiFi.png"/>
                     </Grid>
                     <Grid x:Name="gridBluetooth" HorizontalAlignment="Left" Height="125" Margin="10,130,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 藍牙" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Bluetooth.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Bluetooth.png"/>
                     </Grid>
                     <Grid x:Name="gridMail" HorizontalAlignment="Left" Height="125" Margin="140,130,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 自動同步" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/MailAccounts.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/MailAccounts.png"/>
                     </Grid>
                     <Grid x:Name="gridLock" HorizontalAlignment="Left" Height="125" Margin="270,130,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 鎖定畫面" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Lockscreen.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Lockscreen.png"/>
                     </Grid>
                     <Grid x:Name="gridGPS" HorizontalAlignment="Left" Height="125" Margin="10,260,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 定位" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Location.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Location.png"/>
                     </Grid>
                     <Grid x:Name="gridSR" HorizontalAlignment="Left" Height="125" Margin="140,260,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}" Visibility="Collapsed"  >
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 螢幕畫面旋轉" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Rotation.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Rotation.png"/>
                     </Grid>
                     <Grid x:Name="gridPS" HorizontalAlignment="Left" Height="125" Margin="270,260,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}" Visibility="Collapsed"  >
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 省電模式" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Power.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Power.png"/>
                     </Grid>
                     <Grid x:Name="gridNFC" HorizontalAlignment="Left" Height="125" Margin="10,390,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}" Visibility="Collapsed">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" NFC" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/NFC.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/NFC.png"/>
                     </Grid>
                     <Grid x:Name="gridOffice" HorizontalAlignment="Left" Height="125" Margin="140,390,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}" Visibility="Collapsed" >
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 工作場所" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Office.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Office.png"/>
                     </Grid>
                     <Grid x:Name="gridNotifications" HorizontalAlignment="Left" Height="125" Margin="270,390,0,0" VerticalAlignment="Top" Width="125" Background="{StaticResource PhoneAccentBrush}" Visibility="Collapsed">
                         <TextBlock Foreground="White" HorizontalAlignment="Left" Height="24" Margin="0,101,0,0" TextWrapping="Wrap" Text=" 通知" VerticalAlignment="Top" Width="125" FontSize="15"/>
-                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Notifications.png"/>
+                        <Image HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="125" Source="/Assets/PivotPageSettings/Notifications.png"/>
                     </Grid>
                 </Grid>
             </phone:PivotItem>
         </phone:Pivot>
-        <Grid x:Name="GridColor" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="480" Visibility="Collapsed">
+        <Grid x:Name="GridColor" Visibility="Collapsed">
             <Grid.Background>
                 <SolidColorBrush Color="{StaticResource PhoneSemitransparentColor}"/>
             </Grid.Background>
-            <Grid HorizontalAlignment="Left" Height="455" VerticalAlignment="Top" Width="480">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
                 <Grid.Background>
                     <SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
                 </Grid.Background>
-                <TextBlock Text="請指定顏色" Style="{StaticResource PhoneTextNormalStyle}" FontSize="35" Margin="10,10,26,393"/>
-                <TextBlock HorizontalAlignment="Left" Height="33" Margin="45,81,0,0" TextWrapping="Wrap" Text="紅" VerticalAlignment="Top" Width="39" FontSize="25"/>
-                <TextBox x:Name="txtRed" HorizontalAlignment="Left" Height="75" Margin="84,62,0,0" TextWrapping="Wrap" Text="150" VerticalAlignment="Top" Width="153" InputScope="Number"/>
-                <TextBlock HorizontalAlignment="Left" Height="33" Margin="45,156,0,0" TextWrapping="Wrap" Text="綠" VerticalAlignment="Top" Width="39" FontSize="25"/>
-                <TextBox x:Name="txtGreen" HorizontalAlignment="Left" Height="75" Margin="84,137,0,0" TextWrapping="Wrap" Text="150" VerticalAlignment="Top" Width="153" InputScope="Number"/>
-                <TextBlock HorizontalAlignment="Left" Height="33" Margin="45,231,0,0" TextWrapping="Wrap" Text="藍" VerticalAlignment="Top" Width="39" FontSize="25"/>
-                <TextBox x:Name="txtBlue" HorizontalAlignment="Left" Height="75" Margin="84,212,0,0" TextWrapping="Wrap" Text="150" VerticalAlignment="Top" Width="153" InputScope="Number"/>
-                <Button x:Name="btnOK" Content="確定" HorizontalAlignment="Left" Height="70" Margin="10,375,0,0" VerticalAlignment="Top" Width="225"/>
-                <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Height="70" Margin="245,375,0,0" VerticalAlignment="Top" Width="225"/>
-                <CheckBox x:Name="chkUseDefault" Content="使用系統輔色" HorizontalAlignment="Left" Height="75" Margin="10,287,0,0" VerticalAlignment="Top" Width="460"/>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="請指定顏色" Style="{StaticResource PhoneTextNormalStyle}" FontSize="35" Margin="12"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="紅" FontSize="25" VerticalAlignment="Center" Margin="12,0,0,0"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtRed" TextWrapping="Wrap" Text="150" InputScope="Number"/>
+                        <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="綠" FontSize="25" VerticalAlignment="Center" Margin="12,0,0,0"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtGreen" TextWrapping="Wrap" Text="150" InputScope="Number"/>
+                        <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="藍" FontSize="25" VerticalAlignment="Center" Margin="12,0,0,0"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtBlue" TextWrapping="Wrap" Text="150" InputScope="Number"/>
+                    </Grid>
+                    <CheckBox x:Name="chkUseDefault" Content="使用系統輔色"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnOK" Grid.Column="0" Content="確定" Height="70"/>
+                        <Button x:Name="btnCancel" Grid.Column="1" Content="取消" Height="70"/>
+                    </Grid>
+                </StackPanel>
             </Grid>
         </Grid>
     </Grid>

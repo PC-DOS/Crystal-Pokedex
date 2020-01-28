@@ -74,7 +74,7 @@ Partial Public Class PageItems
                 imgSelPkMn = New Imaging.BitmapImage
                 Dim strSel As String
                 strSel = lstItems.SelectedItems.Item(0).ToString
-                strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+                strSel = strSel.Split(" ")(0)
                 If 25 = 245 Then
                     MessageBox.Show(strSel)
                 End If
@@ -186,7 +186,7 @@ Partial Public Class PageItems
         End If
         Dim strSel As String
         strSel = lstItems.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         lpSelectedItemNumber = strSel
         NavigationService.Navigate(New Uri("/PageItemDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
@@ -197,7 +197,7 @@ Partial Public Class PageItems
         End If
         Dim strSel As String
         strSel = lstItems.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
     End Sub
     Private Sub ApplicationBarIconButton_Click_2(sender As Object, e As EventArgs)
         lstItems.SelectedIndex = 0

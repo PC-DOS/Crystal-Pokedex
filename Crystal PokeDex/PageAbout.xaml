@@ -23,11 +23,22 @@
             <!--Panorama 項目 1-->
             <phone:PanoramaItem Header="介紹" Foreground="{StaticResource PhoneForegroundBrush}">
                 <Grid>
-                    <Rectangle Fill="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="175"/>
-                    <Image HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="175" Source="/Assets/Tiles/FlipCycleTileMedium.png"/>
-                    <TextBlock HorizontalAlignment="Left" Height="41" Margin="194,10,0,0" TextWrapping="Wrap" Text="Crystal PokeDex" VerticalAlignment="Top" Width="226" FontSize="30"/>
-                    <TextBlock HorizontalAlignment="Left" Height="35" Margin="194,54,0,0" TextWrapping="Wrap" Text="PC-DOS Workshop" VerticalAlignment="Top" Width="212" FontSize="25"/>
-                    <TextBlock HorizontalAlignment="Left" Height="332" Margin="10,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" FontSize="25">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="0" Grid.Column="0" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="175">
+                        <Image HorizontalAlignment="Left" Source="/Assets/Tiles/FlipCycleTileMedium.png"/>
+                    </Grid>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" Margin="5,0,0,0">
+                        <TextBlock TextWrapping="Wrap" Text="Crystal PokeDex" FontSize="30"/>
+                        <TextBlock TextWrapping="Wrap" Text="PC-DOS Workshop" FontSize="25"/>
+                    </StackPanel>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap" FontSize="25" Margin="10,5,0,0">
                     	<Run Text="幫助您收集和檢視神奇寶貝的資訊。"/>
                     </TextBlock>
                 </Grid>
@@ -36,10 +47,10 @@
             <!--Panorama 項目 2-->
             <phone:PanoramaItem Header="鳴謝">
                 <Grid>
-                    <TextBlock HorizontalAlignment="Left" Height="515" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" FontSize="25">
+                    <TextBlock Margin="10,10,0,0" TextWrapping="Wrap" FontSize="25">
                     	<Run Text="感謝以下機構或個人提供的支援:"/>
                     	<LineBreak/>
-                                     <Run Text="所有參與測試的使用者"/>
+                         <Run Text="所有參與測試的使用者"/>
                     	<LineBreak/>
                     	<Run Text="Bing 網典"/>
                     	<LineBreak/>
@@ -67,16 +78,16 @@
                 </Grid>
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="法律" Foreground="{StaticResource PhoneForegroundBrush}">
-                <Grid>
-                    <TextBlock HorizontalAlignment="Left" Height="403" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" FontSize="25">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Margin="10,10,0,0" TextWrapping="Wrap" FontSize="25">
                 		<Run Text="依照相關國際智慧財產權保護準則，本應用程式授權您將其中所包含的所有數據無償用於非商業用途，同時您也承諾允許將它們授權給其他人用於非商業用途。"/>
                 		<LineBreak/>
                         <Run />
                         <LineBreak/>
                 		<Run Text="PC-DOS Workshop 承諾保護您的隱私，本程式不會收集任何可能識別您的信息。"/>
                     </TextBlock>
-                    <HyperlinkButton x:Name="lnkPrivacy" Content="隱私權聲明" HorizontalAlignment="Left" Height="45" Margin="0,418,0,0" VerticalAlignment="Top" Width="143" NavigateUri="http://github.com/PC-DOS/privacy/wiki/"/>
-                </Grid>
+                    <HyperlinkButton x:Name="lnkPrivacy" Content="隱私權聲明" NavigateUri="http://github.com/PC-DOS/privacy/wiki/" HorizontalAlignment="Left" Margin="0,100,0,0"/>
+                </StackPanel>
             </phone:PanoramaItem>
         </phone:Panorama>
     </Grid>

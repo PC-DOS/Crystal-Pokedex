@@ -24,6 +24,9 @@
         {1, 1, 2, 1, 0.5, 1, 1, 1, 1, 0.5, 0.5, 1, 1, 1, 1, 1, 2, 2, 1}
     }
     Public Function CalculateTypeProperties(Optional lpTypeAttack1 As Integer = 0, Optional lpTypeAttack2 As Integer = 0, Optional lpTypeDefend1 As Integer = 0, Optional lpTypeDefend2 As Integer = 0) As Double
+        If lpTypeAttack1 < 0 Or lpTypeAttack2 < 0 Or lpTypeDefend1 < 0 Or lpTypeDefend2 < 0 Then
+            Return 1
+        End If
         If lpTypeAttack1 > CurrentTypeCount Or lpTypeAttack2 > CurrentTypeCount Or lpTypeDefend1 > CurrentTypeCount Or lpTypeDefend2 > CurrentTypeCount Then
             Return 1
         End If

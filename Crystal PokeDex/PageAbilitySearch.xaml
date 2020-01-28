@@ -14,38 +14,28 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot 是放置所有頁面的根資料格-->
-    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,-2450">
+    <Grid x:Name="LayoutRoot">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel 包含應用程式的名稱和頁面標題-->
-        <Rectangle Fill="{StaticResource PhoneBackgroundBrush}" HorizontalAlignment="Left" Height="126" Stroke="{StaticResource PhoneBackgroundBrush}" VerticalAlignment="Top" Width="550" Margin="-30,-3,-40,0"/>
-
-        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="CRYSTAL POKEDEX" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="txtTitle" Text="的搜尋結果" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="50"/>
         </StackPanel>
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,0,12,0">
-            <!--phone:LongListSelector  x:Name="lstPokemons" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="446" FontSize="35" Margin="10,0,0,0" CacheMode="BitmapCache" /-->
-            <Button x:Name="btnGoToNum" Content="定位到編號" HorizontalAlignment="Left" Height="75" Margin="-12,155,0,0" VerticalAlignment="Top" Width="174" Visibility="Collapsed"/>
-            <Grid HorizontalAlignment="Left" Height="622" VerticalAlignment="Top" Width="458">
-                <ListBox x:Name="lstMoves" FontSize="35" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneBackgroundBrush}" Margin="0,0,0,4" />
-            </Grid>
-            <Grid x:Name="gridNoResult" HorizontalAlignment="Left" Height="753" Margin="-12,-22,-15,-95" VerticalAlignment="Top" Width="485" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Visible" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="0*"/>
-                </Grid.ColumnDefinitions>
-                <Image HorizontalAlignment="Center" Height="150" Margin="170,103,165,0" VerticalAlignment="Top" Width="150" Source="info.png"/>
-                <TextBlock HorizontalAlignment="Left" Height="66" Margin="0,258,0,0" TextWrapping="Wrap" Text="沒有找到結果" VerticalAlignment="Top" Width="485" FontSize="40" TextAlignment="Center"/>
-            </Grid>
-
-        </Grid>
 
         <!--ContentPanel - 其他內容置於此-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <ListBox x:Name="lstAbilities" FontSize="35" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneBackgroundBrush}" BorderBrush="{StaticResource PhoneTextBoxBrush}" Margin="24,12,12,12" BorderThickness="2.5" />
+            <Grid x:Name="gridNoResult" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Visible">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image HorizontalAlignment="Center" Height="150" Width="150" Source="/Assets/PageSharedResources/Info.png"/>
+                    <TextBlock HorizontalAlignment="Center" Height="66" TextWrapping="Wrap" Text="沒有找到結果" FontSize="40" TextAlignment="Center" Margin="0,10,0,100"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
     </Grid>
 
 

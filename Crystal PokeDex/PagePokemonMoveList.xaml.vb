@@ -11,7 +11,7 @@
         End If
         Dim strSel As String
         strSel = lstPokemonMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         MoveSelectionNumber = CLng(strSel) - 1
         NavigationService.Navigate(New Uri("/PageMoveDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
@@ -22,7 +22,7 @@
         End If
         Dim strSel As String
         strSel = lstPokemonMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         MoveSelectionNumber = CLng(strSel) - 1
     End Sub
 

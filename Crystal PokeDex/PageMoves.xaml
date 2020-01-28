@@ -14,34 +14,29 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot 是放置所有頁面的根資料格-->
-    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,-2450">
+    <Grid x:Name="LayoutRoot">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel 包含應用程式的名稱和頁面標題-->
-        <Rectangle Fill="{StaticResource PhoneBackgroundBrush}" HorizontalAlignment="Left" Height="126" Stroke="{StaticResource PhoneBackgroundBrush}" VerticalAlignment="Top" Width="550" Margin="-30,-3,-40,0"/>
-
-        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="CRYSTAL POKEDEX" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="技能列表" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="50"/>
+            <TextBlock Text="技能列表" Style="{StaticResource PhoneTextTitle1Style}" FontSize="50"/>
         </StackPanel>
 
         <!--ContentPanel - 其他內容置於此-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Grid HorizontalAlignment="Left" Height="560" VerticalAlignment="Top" Width="458" Margin="0,0,-2,0">
-                <ListBox x:Name="lstMoves" FontSize="35" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastForegroundBrush}" Margin="0,0,0,4" />
-            </Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <ListBox x:Name="lstMoves" FontSize="35" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastForegroundBrush}" BorderBrush="{StaticResource PhoneTextBoxBrush}" Margin="24,12,12,12" BorderThickness="2.5" />
         </Grid>
     </Grid>
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True"  Mode="Default"   IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton Text="跳轉" IconUri="/next.png" Click="ApplicationBarIconButton_Click"    />
-            <shell:ApplicationBarIconButton Text="搜尋" IconUri="/search.png" Click="ApplicationBarIconButton_Click_1" />
-            <shell:ApplicationBarIconButton Text="頂部" IconUri="/top.png" Click="ApplicationBarIconButton_Click_2" />
-            <shell:ApplicationBarIconButton Text="底部" IconUri="/buttom.png" Click="ApplicationBarIconButton_Click_3" />
+            <shell:ApplicationBarIconButton Text="跳轉" IconUri="/Assets/MenuIcons/next.png" Click="ApplicationBarIconButton_Click"    />
+            <shell:ApplicationBarIconButton Text="搜尋" IconUri="/Assets/MenuIcons/search.png" Click="ApplicationBarIconButton_Click_1" />
+            <shell:ApplicationBarIconButton Text="頂部" IconUri="/Assets/MenuIcons/top.png" Click="ApplicationBarIconButton_Click_2" />
+            <shell:ApplicationBarIconButton Text="底部" IconUri="/Assets/MenuIcons/buttom.png" Click="ApplicationBarIconButton_Click_3" />
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>

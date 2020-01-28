@@ -14,24 +14,24 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot 是放置所有頁面的根資料格-->
-    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,-2450">
+    <!--<Grid x:Name="LayoutRoot" Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,-2450">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        --><!--TitlePanel 包含應用程式的名稱和頁面標題--><!--
         <Rectangle Fill="{StaticResource PhoneBackgroundBrush}" HorizontalAlignment="Left" Height="126" Stroke="{StaticResource PhoneBackgroundBrush}" VerticalAlignment="Top" Width="550" Margin="-30,-3,-40,0"/>
 
-        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        --><!--TitlePanel 包含應用程式的名稱和頁面標題--><!--
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="CRYSTAL POKEDEX" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock Text="神奇寶貝列表" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="50"/>
         </StackPanel>
 
-        <!--ContentPanel - 其他內容置於此-->
+        --><!--ContentPanel - 其他內容置於此--><!--
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,0,12,0">
-            <!--phone:LongListSelector  x:Name="lstPokemons" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="446" FontSize="35" Margin="10,0,0,0" CacheMode="BitmapCache" /-->
+            --><!--phone:LongListSelector  x:Name="lstPokemons" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="446" FontSize="35" Margin="10,0,0,0" CacheMode="BitmapCache" /--><!--
             <Rectangle x:Name="rectPokeImg" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="150" Stroke="White" VerticalAlignment="Top" Width="150" Margin="8,0,0,0"/>
             <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="150" Margin="8,0,0,0"/>
             <Button x:Name="btnGoToNum" Content="定位到編號" HorizontalAlignment="Left" Height="75" Margin="-12,155,0,0" VerticalAlignment="Top" Width="174" Visibility="Collapsed"/>
@@ -40,13 +40,38 @@
             </Grid>
 
         </Grid>
+    </Grid>-->
+    <!--LayoutRoot 是放置所有頁面的根資料格-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="CRYSTAL POKEDEX" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="神奇寶貝列表" Style="{StaticResource PhoneTextTitle1Style}" FontSize="50"/>
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="#FFF4F4F5" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="150" Margin="24,12,0,0">
+                <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="150"/>
+            </Grid>
+            <ListBox x:Name="lstPokemons" Grid.Column="1" FontSize="35" Background="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastForegroundBrush}" BorderBrush="{StaticResource PhoneTextBoxBrush}" BorderThickness="2.5" Margin="12" />
+        </Grid>
     </Grid>
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True"  Mode="Default"   IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton Text="跳轉" IconUri="/next.png" Click="ApplicationBarIconButton_Click"    />
-            <shell:ApplicationBarIconButton Text="搜尋" IconUri="/search.png" Click="ApplicationBarIconButton_Click_1" />
-            <shell:ApplicationBarIconButton Text="頂部" IconUri="/top.png" Click="ApplicationBarIconButton_Click_2" />
-            <shell:ApplicationBarIconButton Text="底部" IconUri="/buttom.png" Click="ApplicationBarIconButton_Click_3" />
+            <shell:ApplicationBarIconButton Text="跳轉" IconUri="/Assets/MenuIcons/next.png" Click="ApplicationBarIconButton_Click"    />
+            <shell:ApplicationBarIconButton Text="搜尋" IconUri="/Assets/MenuIcons/search.png" Click="ApplicationBarIconButton_Click_1" />
+            <shell:ApplicationBarIconButton Text="頂部" IconUri="/Assets/MenuIcons/top.png" Click="ApplicationBarIconButton_Click_2" />
+            <shell:ApplicationBarIconButton Text="底部" IconUri="/Assets/MenuIcons/buttom.png" Click="ApplicationBarIconButton_Click_3" />
             <shell:ApplicationBar.MenuItems >
                 <!--shell:ApplicationBarMenuItem Text="網頁: 超進化的詳細資料 (簡體中文)" IsEnabled="True" Click="ApplicationBarMenuItem_Click" /-->
                 <!--shell:ApplicationBarMenuItem Text="網頁: 超進化的詳細資料" IsEnabled="True" Click="ApplicationBarMenuItem_Click_1" /-->

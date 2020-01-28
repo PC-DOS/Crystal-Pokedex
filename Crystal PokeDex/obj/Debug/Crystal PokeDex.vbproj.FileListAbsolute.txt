@@ -351,8 +351,6 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityDetails.g.i.v
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilityOnlineSearchCfg.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbilities.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageAbout.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculator.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalcXY.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemDetails.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItemOnlineSearchCfg.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageItems.g.i.vb
@@ -369,7 +367,6 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSearchReq.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageSettings.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageStateInfo.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTileLauncher.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageTypes.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PivotPageSettings.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal PokeDex.g.resources
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\Crystal_PokeDex.AppResources.resources
@@ -394,5 +391,9 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Contr
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Net.dll
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Microsoft.Phone.Controls.dll
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\Windows.winmd
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\XapCacheFile.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Debug\My Project\WMAppManifest.xml
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculatorSM.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculatorBW.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageCalculatorXY.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Debug\PageType.g.i.vb

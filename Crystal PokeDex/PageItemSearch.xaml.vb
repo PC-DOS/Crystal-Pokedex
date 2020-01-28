@@ -85,35 +85,35 @@
         End With
         txtTitle.Text = lpSearchRequest & " 的搜尋結果"
         If lpSearchRequest = "" Then
-            lstMoves.ItemsSource = ItemItems
+            lstItems.ItemsSource = ItemItems
         Else
-            lstMoves.ItemsSource = (From x In ItemItems Where x.Contains(lpSearchRequest) Select x).ToArray()
+            lstItems.ItemsSource = (From x In ItemItems Where x.Contains(lpSearchRequest) Select x).ToArray()
         End If
-        If lstMoves.Items.Count = 0 Then
+        If lstItems.Items.Count = 0 Then
             gridNoResult.Visibility = System.Windows.Visibility.Visible
         Else
             gridNoResult.Visibility = System.Windows.Visibility.Collapsed
         End If
     End Sub
 
-    Private Sub lstMoves_DoubleTap(sender As Object, e As GestureEventArgs) Handles lstMoves.DoubleTap
-        If lstMoves.SelectedIndex < 0 Then
+    Private Sub lstItems_DoubleTap(sender As Object, e As GestureEventArgs) Handles lstItems.DoubleTap
+        If lstItems.SelectedIndex < 0 Then
             Exit Sub
         End If
         Dim strSel As String
-        strSel = lstMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = lstItems.SelectedItems.Item(0).ToString
+        strSel = strSel.Split(" ")(0)
         lpSelectedItemNumber = strSel
         NavigationService.Navigate(New Uri("/PageItemDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
-    Private Sub lstMoves_Tap(sender As Object, e As GestureEventArgs) Handles lstMoves.Tap
-        If lstMoves.SelectedIndex < 0 Then
+    Private Sub lstItems_Tap(sender As Object, e As GestureEventArgs) Handles lstItems.Tap
+        If lstItems.SelectedIndex < 0 Then
             Exit Sub
         End If
         Dim strSel As String
-        strSel = lstMoves.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = lstItems.SelectedItems.Item(0).ToString
+        strSel = strSel.Split(" ")(0)
         lpSelectedItemNumber = CLng(strSel) - 1
     End Sub
 

@@ -4399,7 +4399,7 @@
         End If
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         PokemonInformationShared = GetPokemonInformation(CInt(strSel))
         NavigationService.Navigate(New System.Uri("/PagePokemonDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub
@@ -4413,7 +4413,7 @@
         imgSelPkMn = New Imaging.BitmapImage
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         If 25 = 245 Then
             MessageBox.Show(strSel)
         End If
@@ -4427,7 +4427,7 @@
         End If
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         PokemonInformationShared = GetPokemonInformation(CInt(strSel))
         NavigationService.Navigate(New System.Uri("/PagePokemonDetails.xaml", UriKind.RelativeOrAbsolute))
     End Sub

@@ -15,7 +15,7 @@
         txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
         txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
         txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
-        pivMove.Title = txtName.Text
+        pivData.Title = txtName.Text
     End Sub
 
     Private Sub txtDescription_GotFocus(sender As Object, e As RoutedEventArgs) Handles txtDescription.GotFocus

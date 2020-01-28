@@ -225,28 +225,39 @@ Partial Public Class MainPage
         NavigationService.Navigate(New Uri("/PageCalculator.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
-    Private Sub rectCalc_Tap(sender As Object, e As GestureEventArgs) Handles rectCalc.Tap
-        NavigationService.Navigate(New Uri("/PageCalculator.xaml", UriKind.RelativeOrAbsolute))
+    Private Sub rectCalcBW_Tap(sender As Object, e As GestureEventArgs) Handles rectCalcBW.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorBW.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
-    Private Sub imgCalc_Tap(sender As Object, e As GestureEventArgs) Handles imgCalc.Tap
-        NavigationService.Navigate(New Uri("/PageCalculator.xaml", UriKind.RelativeOrAbsolute))
+    Private Sub imgCalcBW_Tap(sender As Object, e As GestureEventArgs) Handles imgCalcBW.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorBW.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
-    Private Sub txtCalc_Tap(sender As Object, e As GestureEventArgs) Handles txtCalc.Tap
-        NavigationService.Navigate(New Uri("/PageCalculator.xaml", UriKind.RelativeOrAbsolute))
+    Private Sub txtCalcBW_Tap(sender As Object, e As GestureEventArgs) Handles txtCalcBW.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorBW.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
     Private Sub imgCalcXY_Tap(sender As Object, e As GestureEventArgs) Handles imgCalcXY.Tap
-        NavigationService.Navigate(New Uri("/PageCalcXY.xaml", UriKind.RelativeOrAbsolute))
+        NavigationService.Navigate(New Uri("/PageCalculatorXY.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
     Private Sub rectCalcXY_Tap(sender As Object, e As GestureEventArgs) Handles rectCalcXY.Tap
-        NavigationService.Navigate(New Uri("/PageCalcXY.xaml", UriKind.RelativeOrAbsolute))
+        NavigationService.Navigate(New Uri("/PageCalculatorXY.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
     Private Sub txtCalcXY_Tap(sender As Object, e As GestureEventArgs) Handles txtCalcXY.Tap
-        NavigationService.Navigate(New Uri("/PageCalcXY.xaml", UriKind.RelativeOrAbsolute))
+        NavigationService.Navigate(New Uri("/PageCalculatorXY.xaml", UriKind.RelativeOrAbsolute))
+    End Sub
+    Private Sub imgCalcSM_Tap(sender As Object, e As GestureEventArgs) Handles imgCalcSM.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorSM.xaml", UriKind.RelativeOrAbsolute))
+    End Sub
+
+    Private Sub rectCalcSM_Tap(sender As Object, e As GestureEventArgs) Handles rectCalcSM.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorSM.xaml", UriKind.RelativeOrAbsolute))
+    End Sub
+
+    Private Sub txtCalcSM_Tap(sender As Object, e As GestureEventArgs) Handles txtCalcSM.Tap
+        NavigationService.Navigate(New Uri("/PageCalculatorSM.xaml", UriKind.RelativeOrAbsolute))
     End Sub
 
     Private Sub imgSettings_Tap(sender As Object, e As GestureEventArgs) Handles imgSettings.Tap

@@ -103,7 +103,7 @@ Partial Public Class PageMoves
                 imgSelPkMn = New Imaging.BitmapImage
                 Dim strSel As String
                 strSel = lstMoves.SelectedItems.Item(0).ToString
-                strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+                strSel = strSel.Split(" ")(0)
                 If 25 = 245 Then
                     MessageBox.Show(strSel)
                 End If

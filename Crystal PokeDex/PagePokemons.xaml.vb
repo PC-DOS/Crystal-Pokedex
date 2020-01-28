@@ -2219,7 +2219,7 @@ Partial Public Class PagePokemons
         End If
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         PokemonInformationShared = GetPokemonInformation(CInt(strSel))
         If PokemonInformationShared.IsMissingNo Then
             Exit Sub
@@ -2236,7 +2236,7 @@ Partial Public Class PagePokemons
         imgSelPkMn = New Imaging.BitmapImage
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         If 25 = 245 Then
             MessageBox.Show(strSel)
         End If
@@ -2265,7 +2265,7 @@ Partial Public Class PagePokemons
             imgSelPkMn = New Imaging.BitmapImage
             Dim strSel As String
             strSel = lstPokemons.SelectedItems.Item(0).ToString
-            strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+            strSel = strSel.Split(" ")(0)
             If 25 = 245 Then
                 MessageBox.Show(strSel)
             End If
@@ -2277,27 +2277,27 @@ Partial Public Class PagePokemons
         End If
     End Sub
 
-    Private Sub btnGoToNum_Tap(sender As Object, e As GestureEventArgs) Handles btnGoToNum.Tap
-        Dim InputBoxEx As InputPrompt
-        InputBoxEx = New InputPrompt
-        Dim InputScopeNumber As InputScope
-        InputScopeNumber = New InputScope
-        Dim InputScopeNumberName As InputScopeName
-        InputScopeNumberName = New InputScopeName
-        With InputScopeNumberName
-            .NameValue = InputScopeNameValue.Number
-        End With
-        With InputScopeNumber
-            .Names.Add(InputScopeNumberName)
-        End With
-        With InputBoxEx
-            AddHandler .Completed, AddressOf InputPrompt_Completed
-            .Title = "定位到編號"
-            .Message = "請輸入您需要的神奇寶貝的全國圖鑑編號。" & vbCrLf & "範圍: 001-721"
-            .InputScope = InputScopeNumber
-            .Show()
-        End With
-    End Sub
+    'Private Sub btnGoToNum_Tap(sender As Object, e As GestureEventArgs) Handles btnGoToNum.Tap
+    '    Dim InputBoxEx As InputPrompt
+    '    InputBoxEx = New InputPrompt
+    '    Dim InputScopeNumber As InputScope
+    '    InputScopeNumber = New InputScope
+    '    Dim InputScopeNumberName As InputScopeName
+    '    InputScopeNumberName = New InputScopeName
+    '    With InputScopeNumberName
+    '        .NameValue = InputScopeNameValue.Number
+    '    End With
+    '    With InputScopeNumber
+    '        .Names.Add(InputScopeNumberName)
+    '    End With
+    '    With InputBoxEx
+    '        AddHandler .Completed, AddressOf InputPrompt_Completed
+    '        .Title = "定位到編號"
+    '        .Message = "請輸入您需要的神奇寶貝的全國圖鑑編號。" & vbCrLf & "範圍: 001-721"
+    '        .InputScope = InputScopeNumber
+    '        .Show()
+    '    End With
+    'End Sub
 
     Private Sub ApplicationBarIconButton_Click(sender As Object, e As EventArgs)
         Dim InputBoxEx As InputPrompt
@@ -2372,7 +2372,7 @@ Partial Public Class PagePokemons
                 imgSelPkMn = New Imaging.BitmapImage
                 Dim strSel As String
                 strSel = lstPokemons.SelectedItems.Item(0).ToString
-                strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+                strSel = strSel.Split(" ")(0)
                 If 25 = 245 Then
                     MessageBox.Show(strSel)
                 End If
@@ -2419,7 +2419,7 @@ Partial Public Class PagePokemons
         imgSelPkMn = New Imaging.BitmapImage
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         If 25 = 245 Then
             MessageBox.Show(strSel)
         End If
@@ -2433,7 +2433,7 @@ Partial Public Class PagePokemons
         imgSelPkMn = New Imaging.BitmapImage
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         If 25 = 245 Then
             MessageBox.Show(strSel)
         End If
@@ -2447,7 +2447,7 @@ Partial Public Class PagePokemons
         End If
         Dim strSel As String
         strSel = lstPokemons.SelectedItems.Item(0).ToString
-        strSel = strSel.Chars(0) & strSel.Chars(1) & strSel.Chars(2)
+        strSel = strSel.Split(" ")(0)
         PokemonInformationShared = GetPokemonInformation(CInt(strSel))
         If PokemonInformationShared.IsMissingNo Then
             Exit Sub

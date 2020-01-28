@@ -28,7 +28,7 @@
 
         <!--ContentPanel - 其他內容置於此-->
         <Grid x:Name="ContentPanel" Margin="12,109,12,0" Grid.RowSpan="2">
-            <Image HorizontalAlignment="Left" Height="361" VerticalAlignment="Top" Width="704" Source="/Types.png" Stretch="Fill"/>
+            <Image HorizontalAlignment="Left" Height="361" VerticalAlignment="Top" Width="704" Source="/Assets/PageTypes/Types.png" Stretch="Fill"/>
 
         </Grid>
     </Grid>

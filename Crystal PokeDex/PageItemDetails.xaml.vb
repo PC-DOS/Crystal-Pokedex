@@ -12,7 +12,7 @@
         txtROC.Text = ItemNamesCHT(lpSelectedItemNumber - 1)
         txtENU.Text = ItemNamesENG(lpSelectedItemNumber - 1)
         txtJPN.Text = ItemNamesJPN(lpSelectedItemNumber - 1)
-        pivMove.Title = txtName.Text
+        pivData.Title = txtName.Text
     End Sub
 
     Private Sub txtDescription_GotFocus(sender As Object, e As RoutedEventArgs) Handles txtDescription.GotFocus
