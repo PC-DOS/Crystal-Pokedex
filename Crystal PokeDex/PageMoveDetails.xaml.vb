@@ -12,16 +12,16 @@
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtPower.Text = MovePower.Item(MoveSelectionNumber)
         txtPP.Text = MovePP.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
         txtType.Text = MoveTypes.Item(MoveSelectionNumber)
         Dim MoveTypeData As SingleTypeRepresentativeColor = GetSingleTypeRepresentativeColor(MoveTypes.Item(MoveSelectionNumber))
         txtType1.Text = MoveTypes.Item(MoveSelectionNumber)
         gridType1.Background = New SolidColorBrush(Color.FromArgb(255, MoveTypeData.Red, MoveTypeData.Green, MoveTypeData.Blue))
         pivData.Title = CurrentMoves.Item(MoveSelectionNumber)
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
     End Sub
 
     Private Sub ApplicationBarIconButton_Click(sender As Object, e As EventArgs)
@@ -41,10 +41,10 @@
 
     Private Sub txtDescription_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtDescription.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -63,10 +63,10 @@
 
     Private Sub txtCHSO_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCHSO.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -85,10 +85,10 @@
 
     Private Sub txtCHTO_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCHTO.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -107,10 +107,10 @@
 
     Private Sub txtENU_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtENU.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -129,10 +129,10 @@
 
     Private Sub txtJPN_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtJPN.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -151,10 +151,10 @@
 
     Private Sub txtPRC_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtPRC.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub
@@ -173,10 +173,10 @@
 
     Private Sub txtROC_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtROC.TextChanged
         txtDescription.Text = MoveDescription.Item(MoveSelectionNumber)
-        txtROC.Text = MoveNamesCHT.Item(MoveSelectionNumber)
-        txtPRC.Text = MoveNamesCHS(MoveSelectionNumber)
-        txtCHSO.Text = MoveNamesCHS_Official(MoveSelectionNumber)
-        txtCHTO.Text = MoveNamesCHT_Official(MoveSelectionNumber)
+        txtROC.Text = MoveNamesInformalCHT.Item(MoveSelectionNumber)
+        txtPRC.Text = MoveNamesInformalCHS(MoveSelectionNumber)
+        txtCHSO.Text = MoveNamesOfficialCHS(MoveSelectionNumber)
+        txtCHTO.Text = MoveNamesOfficialCHT(MoveSelectionNumber)
         txtJPN.Text = MoveNamesJPN.Item(MoveSelectionNumber)
         txtENU.Text = MoveNamesENG.Item(MoveSelectionNumber)
     End Sub

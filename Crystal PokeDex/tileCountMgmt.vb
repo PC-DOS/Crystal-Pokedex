@@ -1,8 +1,8 @@
-﻿Module tileCountMgmt
+﻿Module TileCountMgmt
     Public currentTileIndex As Long
     Public indexManage As IO.IsolatedStorage.IsolatedStorageSettings
     Public IsLaunchedFromPinned As Boolean = False
-    Public Sub InitalizeTileIndexServer()
+    Public Sub InitializeTileIndexServer()
         indexManage = IO.IsolatedStorage.IsolatedStorageSettings.ApplicationSettings
         Try
             indexManage.Add("Index", 0)

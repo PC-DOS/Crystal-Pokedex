@@ -42,8 +42,8 @@ Partial Public Class App
 
         IsoSettingsLib = IO.IsolatedStorage.IsolatedStorageSettings.ApplicationSettings
 
-        InitalizeList()
-        InitalizeMainList()
+        InitializeList()
+        InitializeMainList()
         ' 偵錯時顯示圖形分析資訊。
         If Debugger.IsAttached Then
             ' 顯示目前的畫面播放速率計數器。

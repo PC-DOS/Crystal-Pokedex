@@ -106,15 +106,15 @@ Partial Public Class PageAblities
     Private Sub PageAblities_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
         Select Case UIAbilityChineseDisplayConfig
             Case ChineseDisplayConfig.DefaultConfig
-                lstAbilities.ItemsSource = ListAbilityCHT_Official
+                lstAbilities.ItemsSource = ListAbilityOfficialCHT
             Case ChineseDisplayConfig.InformalChineseSimplified
-                lstAbilities.ItemsSource = ListAbilityCHS
+                lstAbilities.ItemsSource = ListAbilityInformalCHS
             Case ChineseDisplayConfig.InformalChineseTraditional
-                lstAbilities.ItemsSource = ListAbilityCHT
+                lstAbilities.ItemsSource = ListAbilityInformalCHT
             Case ChineseDisplayConfig.OfficialChineseSimplified
-                lstAbilities.ItemsSource = ListAbilityCHS_Official
+                lstAbilities.ItemsSource = ListAbilityOfficialCHS
             Case ChineseDisplayConfig.OfficialChineseTraditional
-                lstAbilities.ItemsSource = ListAbilityCHT_Official
+                lstAbilities.ItemsSource = ListAbilityOfficialCHT
         End Select
         Exit Sub
         Dim ItemAbilities As New List(Of String)

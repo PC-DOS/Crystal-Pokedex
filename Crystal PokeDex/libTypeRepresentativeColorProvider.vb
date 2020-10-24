@@ -76,15 +76,15 @@
                 End With
             Case "[岩石]"
                 With ColorReturn
-                    .Red = 184
+                    .Red = 185
                     .Green = 160
-                    .Blue = 56
+                    .Blue = 55
                 End With
             Case "岩石"
                 With ColorReturn
-                    .Red = 184
+                    .Red = 185
                     .Green = 160
-                    .Blue = 56
+                    .Blue = 55
                 End With
             Case "[蟲]"
                 With ColorReturn

@@ -219,5 +219,4 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PivotPageSettings.g.i.
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorSM.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorBW.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorXY.g.i.vb
-D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.vbprojResolveAssemblyReference.cache
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageTypes.g.i.vb

@@ -3,8 +3,8 @@
 
     Public Sub New()
         InitializeComponent()
-        InitalizeList()
-        InitalizeMainList()
+        InitializeList()
+        InitializeMainList()
         IsSimplifiedChineseEnabled = IsoSettingsLib.Item("IsCHS")
         IsOfficialTranslationEnabled = IsoSettingsLib.Item("IsOfficial")
         GetChineseDisplayConfig(IsSimplifiedChineseEnabled, IsOfficialTranslationEnabled)
@@ -71,7 +71,7 @@
         'Else
         '    chkUseCHS.IsChecked = False
         'End If
-        InitalizeTileIndexServer()
+        InitializeTileIndexServer()
         Dim comm As Integer
         'navig()
         Dim nums As String

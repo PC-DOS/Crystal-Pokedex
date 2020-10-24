@@ -9,12 +9,12 @@
         'InitializeAbilities()
         txtName.Text = CurrentAbility.Item(AbilitySelectionNumber - 1)
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
         pivData.Title = txtName.Text
     End Sub
 
@@ -31,12 +31,12 @@
 
     Private Sub txtDescription_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtDescription.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtDescription_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtDescription.TextInput
@@ -53,12 +53,12 @@
 
     Private Sub txtROC_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtROC.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtROC_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtROC.TextInput
@@ -75,12 +75,12 @@
 
     Private Sub txtJPN_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtJPN.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtJPN_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtJPN.TextInput
@@ -97,12 +97,12 @@
 
     Private Sub txtENU_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtENU.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtENU_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtENU.TextInput
@@ -123,12 +123,12 @@
 
     Private Sub txtCHSO_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCHSO.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtCHSO_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtCHSO.TextInput
@@ -149,12 +149,12 @@
 
     Private Sub txtCHTO_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCHTO.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtCHTO_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtCHTO.TextInput
@@ -171,12 +171,12 @@
 
     Private Sub txtPRC_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtPRC.TextChanged
         txtDescription.Text = AbilityDescriptions.Item(AbilitySelectionNumber - 1)
-        txtROC.Text = AbilityNamesCHT(AbilitySelectionNumber - 1)
+        txtROC.Text = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
         txtENU.Text = AbilityNamesENG(AbilitySelectionNumber - 1)
         txtJPN.Text = AbilityNamesJPN(AbilitySelectionNumber - 1)
-        txtPRC.Text = AbilityNamesCHS(AbilitySelectionNumber - 1)
-        txtCHSO.Text = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
-        txtCHTO.Text = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+        txtPRC.Text = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
+        txtCHSO.Text = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
+        txtCHTO.Text = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
     End Sub
 
     Private Sub txtPRC_TextInput(sender As Object, e As TextCompositionEventArgs) Handles txtPRC.TextInput

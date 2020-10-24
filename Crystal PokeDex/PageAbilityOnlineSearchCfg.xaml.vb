@@ -45,12 +45,12 @@
         Select Case AbilitySearchRequest
             Case AbilitySearchRequestLanguages.AbilityNameCHT
                 With AbilitySearchRequestHandler
-                    .SearchQuery = AbilityNamesCHT(AbilitySelectionNumber - 1)
+                    .SearchQuery = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
                     .Show()
                 End With
             Case AbilitySearchRequestLanguages.AbilityNameCHS
                 With AbilitySearchRequestHandler
-                    .SearchQuery = AbilityNamesCHS(AbilitySelectionNumber - 1)
+                    .SearchQuery = AbilityNamesInformalCHS(AbilitySelectionNumber - 1)
                     .Show()
                 End With
             Case AbilitySearchRequestLanguages.AbilityNameENG
@@ -65,17 +65,17 @@
                 End With
             Case AbilitySearchRequestLanguages.AbilityNameCHSO
                 With AbilitySearchRequestHandler
-                    .SearchQuery = AbilityNamesCHS_Official(AbilitySelectionNumber - 1)
+                    .SearchQuery = AbilityNamesOfficialCHS(AbilitySelectionNumber - 1)
                     .Show()
                 End With
             Case AbilitySearchRequestLanguages.AbilityNameCHTO
                 With AbilitySearchRequestHandler
-                    .SearchQuery = AbilityNamesCHT_Official(AbilitySelectionNumber - 1)
+                    .SearchQuery = AbilityNamesOfficialCHT(AbilitySelectionNumber - 1)
                     .Show()
                 End With
             Case Else
                 With AbilitySearchRequestHandler
-                    .SearchQuery = AbilityNamesCHT(AbilitySelectionNumber - 1)
+                    .SearchQuery = AbilityNamesInformalCHT(AbilitySelectionNumber - 1)
                     .Show()
                 End With
         End Select

@@ -45,12 +45,12 @@
         Select Case MoveSearchRequest
             Case MoveSearchRequestLanguages.MoveNameCHT
                 With MoveSearchHandler
-                    .SearchQuery = MoveNamesCHT.Item(MoveSelectionNumber)
+                    .SearchQuery = MoveNamesInformalCHT.Item(MoveSelectionNumber)
                     .Show()
                 End With
             Case MoveSearchRequestLanguages.MoveNameCHS
                 With MoveSearchHandler
-                    .SearchQuery = MoveNamesCHS.Item(MoveSelectionNumber)
+                    .SearchQuery = MoveNamesInformalCHS.Item(MoveSelectionNumber)
                     .Show()
                 End With
             Case MoveSearchRequestLanguages.MoveNameENG
@@ -65,17 +65,17 @@
                 End With
             Case MoveSearchRequestLanguages.MoveNameCHSO
                 With MoveSearchHandler
-                    .SearchQuery = MoveNamesCHS_Official.Item(MoveSelectionNumber)
+                    .SearchQuery = MoveNamesOfficialCHS.Item(MoveSelectionNumber)
                     .Show()
                 End With
             Case MoveSearchRequestLanguages.MoveNameCHTO
                 With MoveSearchHandler
-                    .SearchQuery = MoveNamesCHT_Official.Item(MoveSelectionNumber)
+                    .SearchQuery = MoveNamesOfficialCHT.Item(MoveSelectionNumber)
                     .Show()
                 End With
             Case Else
                 With MoveSearchHandler
-                    .SearchQuery = MoveNamesCHT.Item(MoveSelectionNumber)
+                    .SearchQuery = MoveNamesInformalCHT.Item(MoveSelectionNumber)
                     .Show()
                 End With
         End Select

@@ -170,7 +170,7 @@ Partial Public Class MainPage
         'Else
         '    chkUseCHS.IsChecked = False
         'End If
-        InitalizeTileIndexServer()
+        InitializeTileIndexServer()
     End Sub
 
     'Private Sub chkUseCHS_Tap(sender As Object, e As GestureEventArgs) Handles chkUseCHS.Tap
