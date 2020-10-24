@@ -220,3 +220,4 @@ D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorSM.g.i.v
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorBW.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageCalculatorXY.g.i.vb
 D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\PageTypes.g.i.vb
+D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.vbprojResolveAssemblyReference.cache

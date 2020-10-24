@@ -215,6 +215,8 @@
             Return GetPokemonInformationBWXY(lpPokemonNationalDexNumber)
         ElseIf lpPokemonNationalDexNumber > 721 And lpPokemonNationalDexNumber <= 809 Then
             Return GetPokemonInformationSM(lpPokemonNationalDexNumber)
+        ElseIf lpPokemonNationalDexNumber > 809 And lpPokemonNationalDexNumber <= 898 Then
+            Return GetPokemonInformationSS(lpPokemonNationalDexNumber)
         Else
             Return GenerateEmptyPokemonInfo()
         End If
@@ -24066,7 +24068,7 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "8.8 kg"
                     .lpClass = "寶石神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "70"
@@ -24123,7 +24125,7 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "9.0 kg"
                     .lpClass = "惡作劇神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "100"
@@ -24160,7 +24162,7 @@
                     .lpHeight = "1.7 m"
                     .lpWeight = "195.0 kg"
                     .lpClass = "蒸汽神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "100"
@@ -24327,7 +24329,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "1.5 kg"
                     .lpClass = "草羽神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -24364,7 +24366,7 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "16.0 kg"
                     .lpClass = "刃羽神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -24401,7 +24403,7 @@
                     .lpHeight = "1.6 m"
                     .lpWeight = "36.6 kg"
                     .lpClass = "箭羽神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -24438,11 +24440,11 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "4.3 kg"
                     .lpClass = "火貓神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "64"
@@ -24461,8 +24463,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 726
                 With lpReturnValue
@@ -24475,11 +24477,11 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "25.0 kg"
                     .lpClass = "火貓神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "147"
@@ -24498,8 +24500,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 727
                 With lpReturnValue
@@ -24512,11 +24514,11 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "83.0 kg"
                     .lpClass = "反派神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "239"
@@ -24535,8 +24537,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 728
                 With lpReturnValue
@@ -24549,7 +24551,7 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "7.5 kg"
                     .lpClass = "海獅神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -24572,8 +24574,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 729
                 With lpReturnValue
@@ -24586,12 +24588,12 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "17.5 kg"
                     .lpClass = "偶像神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
                     .lpEggGroup1 = "水一組"
-                    .lpEggGroup2 = "陸上組"
+                    .lpEggGroup2 = "陸地組"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "147"
                     .lpFullLevelExpPoint = "1059860"
@@ -24609,8 +24611,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 730
                 With lpReturnValue
@@ -24623,12 +24625,12 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "44.0 kg"
                     .lpClass = "獨唱者神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
                     .lpEggGroup1 = "水一組"
-                    .lpEggGroup2 = "陸上組"
+                    .lpEggGroup2 = "陸地組"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "239"
                     .lpFullLevelExpPoint = "1059860"
@@ -24646,8 +24648,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 731
                 With lpReturnValue
@@ -24660,7 +24662,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "1.2 kg"
                     .lpClass = "啄木鳥神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "70"
@@ -24683,8 +24685,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 732
                 With lpReturnValue
@@ -24697,7 +24699,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "14.8 kg"
                     .lpClass = "喇叭喙神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "120"
                     .lpStandardFriendlyRate = "70"
@@ -24720,8 +24722,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 733
                 With lpReturnValue
@@ -24734,7 +24736,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "14.8 kg"
                     .lpClass = "銃炮神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "120"
                     .lpStandardFriendlyRate = "70"
@@ -24757,8 +24759,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 734
                 With lpReturnValue
@@ -24771,11 +24773,11 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "6.0 kg"
                     .lpClass = "巡迴神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "51"
@@ -24794,8 +24796,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 735
                 With lpReturnValue
@@ -24808,11 +24810,11 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "14.2 kg"
                     .lpClass = "監視神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "3840"
                     .lpBasicExpPoint = "146"
@@ -24831,8 +24833,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 736
                 With lpReturnValue
@@ -24845,7 +24847,7 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "4.4 kg"
                     .lpClass = "幼蟲神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "70"
@@ -24868,8 +24870,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 737
                 With lpReturnValue
@@ -24882,7 +24884,7 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "10.5 kg"
                     .lpClass = "蓄電池神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "120"
                     .lpStandardFriendlyRate = "70"
@@ -24905,8 +24907,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 738
                 With lpReturnValue
@@ -24919,7 +24921,7 @@
                     .lpHeight = "1.5 m"
                     .lpWeight = "45.0 kg"
                     .lpClass = "鍬形蟲神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -24942,8 +24944,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 739
                 With lpReturnValue
@@ -24956,7 +24958,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "7.0 kg"
                     .lpClass = "拳斗神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "225"
                     .lpStandardFriendlyRate = "70"
@@ -24979,8 +24981,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 740
                 With lpReturnValue
@@ -24993,7 +24995,7 @@
                     .lpHeight = "1.7 m"
                     .lpWeight = "180.0 kg"
                     .lpClass = "毛蟹神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "白色"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
@@ -25016,45 +25018,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
-                End With
-            Case 740
-                With lpReturnValue
-                    .IsMissingNo = False
-                    .IsNoSex = False
-                    .lpNumber = lpPokemonNationalDexNumber
-                    .lpType = "[格鬥]+[冰]"
-                    .lpDescription = "原本是為了超越顛峰而深入山中修行，卻走錯路登上雪山，在忍受寒冷的同時，毛髮不斷生長而產生了進化。不顧一切地打架。遇到突發危機便會自斷鉗子，像發射火箭一樣砸出去。 "
-                    .lpSexRatio = "1:1"
-                    .lpHeight = "1.7 m"
-                    .lpWeight = "180.0 kg"
-                    .lpClass = "毛蟹神奇寶貝"
-                    .lpColor = "---"
-                    .lpSheleter = "---"
-                    .lpCatchRate = "60"
-                    .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "水三組"
-                    .lpEggGroup2 = "---"
-                    .lpBornStepsCount = "5355"
-                    .lpBasicExpPoint = "167"
-                    .lpFullLevelExpPoint = "1000000"
-                    .lpAbility1 = 52
-                    .lpAbility2 = 89
-                    .lpAbilityHidden = 83
-                    With .lpBaseValues
-                        .HP = 97
-                        .ATTACK = 132
-                        .DEFEND = 77
-                        .SPATTACK = 62
-                        .SPDEFEND = 67
-                        .SPEED = 43
-                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
-                    End With
-                    .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 741
                 With lpReturnValue
@@ -25067,7 +25032,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "3.4 kg"
                     .lpClass = "舞蹈神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -25090,8 +25055,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 742
                 With lpReturnValue
@@ -25104,7 +25069,7 @@
                     .lpHeight = "0.1 m"
                     .lpWeight = "0.2 kg"
                     .lpClass = "蜂虻神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "黃"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
@@ -25127,8 +25092,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 743
                 With lpReturnValue
@@ -25141,7 +25106,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "0.5 kg"
                     .lpClass = "蜂虻神奇寶貝"
-                    .lpSheleter = "---"
+                    .lpSheleter = "黃"
                     .lpCatchRate = "75"
                     .lpStandardFriendlyRate = "70"
                     .lpEggGroup1 = "蟲組"
@@ -25163,8 +25128,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 744
                 With lpReturnValue
@@ -25177,11 +25142,11 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "9.2 kg"
                     .lpClass = "小狗神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "4080"
                     .lpBasicExpPoint = "56"
@@ -25200,8 +25165,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 745
                 With lpReturnValue
@@ -25214,11 +25179,11 @@
                     .lpHeight = "0.8 m"
                     .lpWeight = "25.0 kg"
                     .lpClass = "狼神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "90"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "4080"
                     .lpBasicExpPoint = "170"
@@ -25237,8 +25202,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 746
                 With lpReturnValue
@@ -25251,7 +25216,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "0.3 kg"
                     .lpClass = "小魚神奇寶貝"
-                    .lpColor = "---"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
@@ -25274,8 +25239,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 747
                 With lpReturnValue
@@ -25288,6 +25253,7 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "8.0 kg"
                     .lpClass = "非星神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
@@ -25310,8 +25276,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 748
                 With lpReturnValue
@@ -25324,6 +25290,7 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "14.5 kg"
                     .lpClass = "非星神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "75"
                     .lpStandardFriendlyRate = "70"
@@ -25346,8 +25313,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 749
                 With lpReturnValue
@@ -25360,10 +25327,11 @@
                     .lpHeight = "1.0 m"
                     .lpWeight = "110.0 kg"
                     .lpClass = "驢神奇寶貝"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "5355"
                     .lpBasicExpPoint = "77"
@@ -25382,8 +25350,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 750
                 With lpReturnValue
@@ -25396,10 +25364,11 @@
                     .lpHeight = "2.5 m"
                     .lpWeight = "920.0 kg"
                     .lpClass = "挽馬神奇寶貝"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "5355"
                     .lpBasicExpPoint = "175"
@@ -25418,8 +25387,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 751
                 With lpReturnValue
@@ -25432,6 +25401,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "4.0 kg"
                     .lpClass = "水泡神奇寶貝"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "200"
                     .lpStandardFriendlyRate = "70"
@@ -25454,8 +25424,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 752
                 With lpReturnValue
@@ -25468,6 +25438,7 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "82.0 kg"
                     .lpClass = "水泡神奇寶貝"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "100"
                     .lpStandardFriendlyRate = "70"
@@ -25490,8 +25461,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 753
                 With lpReturnValue
@@ -25504,6 +25475,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "1.5 kg"
                     .lpClass = "鐮草神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
@@ -25526,8 +25498,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 754
                 With lpReturnValue
@@ -25540,6 +25512,7 @@
                     .lpHeight = "0.9 m"
                     .lpWeight = "18.5 kg"
                     .lpClass = "花鐮神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "75"
                     .lpStandardFriendlyRate = "70"
@@ -25562,8 +25535,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 755
                 With lpReturnValue
@@ -25576,6 +25549,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "1.5 kg"
                     .lpClass = "發光神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "190"
                     .lpStandardFriendlyRate = "70"
@@ -25598,8 +25572,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 756
                 With lpReturnValue
@@ -25612,6 +25586,7 @@
                     .lpHeight = "1.0 m"
                     .lpWeight = "11.5 kg"
                     .lpClass = "發光神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "75"
                     .lpStandardFriendlyRate = "70"
@@ -25634,8 +25609,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 757
                 With lpReturnValue
@@ -25648,6 +25623,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "4.8 kg"
                     .lpClass = "毒蜥神奇寶貝"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "120"
                     .lpStandardFriendlyRate = "70"
@@ -25670,8 +25646,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 758
                 With lpReturnValue
@@ -25684,6 +25660,7 @@
                     .lpHeight = "1.2 m"
                     .lpWeight = "22.2 kg"
                     .lpClass = "毒蜥神奇寶貝"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -25706,8 +25683,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 759
                 With lpReturnValue
@@ -25720,10 +25697,11 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "6.8 kg"
                     .lpClass = "抓狂神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "140"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "4080"
                     .lpBasicExpPoint = "68"
@@ -25742,8 +25720,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 760
                 With lpReturnValue
@@ -25756,10 +25734,11 @@
                     .lpHeight = "2.1 m"
                     .lpWeight = "135.0 kg"
                     .lpClass = "強臂神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "70"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "4080"
                     .lpBasicExpPoint = "175"
@@ -25778,8 +25757,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 761
                 With lpReturnValue
@@ -25792,6 +25771,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "3.2 kg"
                     .lpClass = "水果神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "235"
                     .lpStandardFriendlyRate = "70"
@@ -25814,8 +25794,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 762
                 With lpReturnValue
@@ -25828,6 +25808,7 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "16.0 kg"
                     .lpClass = "水果神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "120"
                     .lpStandardFriendlyRate = "70"
@@ -25850,8 +25831,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 763
                 With lpReturnValue
@@ -25864,6 +25845,7 @@
                     .lpHeight = "1.2 m"
                     .lpWeight = "21.4 kg"
                     .lpClass = "水果神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -25886,8 +25868,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 764
                 With lpReturnValue
@@ -25900,6 +25882,7 @@
                     .lpHeight = "0.1 m"
                     .lpWeight = "0.3 kg"
                     .lpClass = "摘花神奇寶貝"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
@@ -25922,8 +25905,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 765
                 With lpReturnValue
@@ -25936,10 +25919,11 @@
                     .lpHeight = "1.5 m"
                     .lpWeight = "76.0 kg"
                     .lpClass = "賢者神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "5355"
                     .lpBasicExpPoint = "172"
@@ -25958,8 +25942,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 766
                 With lpReturnValue
@@ -25972,10 +25956,11 @@
                     .lpHeight = "2.0 m"
                     .lpWeight = "82.8 kg"
                     .lpClass = "配合神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "2805"
                     .lpBasicExpPoint = "172"
@@ -25994,8 +25979,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 767
                 With lpReturnValue
@@ -26008,6 +25993,7 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "12.0 kg"
                     .lpClass = "疾行神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "90"
                     .lpStandardFriendlyRate = "70"
@@ -26030,8 +26016,8 @@
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
                     .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
-                    StateInformation(0).lpImagepath = POKEMON_NO_IMAGE
-                    StateInformation(1).lpImagepath = POKEMON_NO_IMAGE
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
                 End With
             Case 768
                 With lpReturnValue
@@ -26044,6 +26030,7 @@
                     .lpHeight = "2.0 m"
                     .lpWeight = "1000000 kg"
                     .lpClass = "裝甲神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -26078,6 +26065,7 @@
                     .lpHeight = "0.5 m"
                     .lpWeight = "70.0 kg"
                     .lpClass = "沙丘神奇寶貝"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "140"
                     .lpStandardFriendlyRate = "70"
@@ -26112,6 +26100,7 @@
                     .lpHeight = "1.3 m"
                     .lpWeight = "250.0 kg"
                     .lpClass = "沙堡神奇寶貝"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
@@ -26146,6 +26135,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "1.2 kg"
                     .lpClass = "海參神奇寶貝"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "60"
                     .lpStandardFriendlyRate = "70"
@@ -26180,6 +26170,7 @@
                     .lpHeight = "1.9 m"
                     .lpWeight = "120.5 kg"
                     .lpClass = "人工神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -26214,6 +26205,7 @@
                     .lpHeight = "2.3 m"
                     .lpWeight = "100.5 kg"
                     .lpClass = "人工神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -26248,6 +26240,7 @@
                     .lpHeight = "0.9 m"
                     .lpWeight = "18.5 kg"
                     .lpClass = "流星神奇寶貝"
+                    .lpColor = "褐"
                     .lpSheleter = "---"
                     .lpCatchRate = "30"
                     .lpStandardFriendlyRate = "70"
@@ -26282,10 +26275,11 @@
                     .lpHeight = "0.4 m"
                     .lpWeight = "19.9 kg"
                     .lpClass = "半夢半醒神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "5355"
                     .lpBasicExpPoint = "168"
@@ -26316,6 +26310,7 @@
                     .lpHeight = "2.0 m"
                     .lpWeight = "212.0 kg"
                     .lpClass = "爆炸龜神奇寶貝"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "70"
                     .lpStandardFriendlyRate = "70"
@@ -26350,10 +26345,11 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "3.3 kg"
                     .lpClass = "蜷縮神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "180"
                     .lpStandardFriendlyRate = "70"
-                    .lpEggGroup1 = "陸上組"
+                    .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "---"
                     .lpBornStepsCount = "2805"
                     .lpBasicExpPoint = "152"
@@ -26384,6 +26380,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "0.7 kg"
                     .lpClass = "畫皮神奇寶貝"
+                    .lpColor = "黃"
                     .lpSheleter = "---"
                     .lpCatchRate = "5355"
                     .lpStandardFriendlyRate = "70"
@@ -26418,6 +26415,7 @@
                     .lpHeight = "0.9 m"
                     .lpWeight = "19.0 kg"
                     .lpClass = "磨牙神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "80"
                     .lpStandardFriendlyRate = "70"
@@ -26452,6 +26450,7 @@
                     .lpHeight = "3.0 m"
                     .lpWeight = "185.0 kg"
                     .lpClass = "悠游神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "70"
                     .lpStandardFriendlyRate = "70"
@@ -26486,6 +26485,7 @@
                     .lpHeight = "3.9 m"
                     .lpWeight = "210.0 kg"
                     .lpClass = "碎藻神奇寶貝"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "25"
                     .lpStandardFriendlyRate = "70"
@@ -26520,6 +26520,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "29.7 kg"
                     .lpClass = "鱗片神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -26554,6 +26555,7 @@
                     .lpHeight = "1.2 m"
                     .lpWeight = "47.0 kg"
                     .lpClass = "鱗片神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -26588,6 +26590,7 @@
                     .lpHeight = "1.6 m"
                     .lpWeight = "78.2 kg"
                     .lpClass = "鱗片神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "70"
@@ -26622,6 +26625,7 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "20.5 kg"
                     .lpClass = "土地神神奇寶貝"
+                    .lpColor = "黃"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "70"
@@ -26656,6 +26660,7 @@
                     .lpHeight = "1.2 m"
                     .lpWeight = "18.6 kg"
                     .lpClass = "土地神神奇寶貝"
+                    .lpColor = "粉"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "70"
@@ -26690,6 +26695,7 @@
                     .lpHeight = "1.9 m"
                     .lpWeight = "45.5 kg"
                     .lpClass = "土地神神奇寶貝"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "70"
@@ -26724,6 +26730,7 @@
                     .lpHeight = "1.3 m"
                     .lpWeight = "21.2 kg"
                     .lpClass = "土地神神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "70"
@@ -26758,6 +26765,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "0.1 kg"
                     .lpClass = "星雲神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -26792,6 +26800,7 @@
                     .lpHeight = "0.1 m"
                     .lpWeight = "999.9 kg"
                     .lpClass = "原始星神奇寶貝"
+                    .lpColor = "藍"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -26826,6 +26835,7 @@
                     .lpHeight = "3.4 m"
                     .lpWeight = "230.0 kg"
                     .lpClass = "日輪神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -26860,6 +26870,7 @@
                     .lpHeight = "4.0 m"
                     .lpWeight = "120.0 kg"
                     .lpClass = "月輪神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -26894,6 +26905,7 @@
                     .lpHeight = "1.2 m"
                     .lpWeight = "55.5 kg"
                     .lpClass = "寄生神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -26928,6 +26940,7 @@
                     .lpHeight = "2.4 m"
                     .lpWeight = "333.6 kg"
                     .lpClass = "膨脹神奇寶貝"
+                    .lpColor = "紅"
                     .lpSheleter = "---"
                     .lpCatchRate = "25"
                     .lpStandardFriendlyRate = "0"
@@ -26962,6 +26975,7 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "25.0 kg"
                     .lpClass = "美艷神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "0"
@@ -26996,6 +27010,7 @@
                     .lpHeight = "3.8 m"
                     .lpWeight = "100.0 kg"
                     .lpClass = "燈飾神奇寶貝"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "30"
                     .lpStandardFriendlyRate = "0"
@@ -27030,6 +27045,7 @@
                     .lpHeight = "9.2 m"
                     .lpWeight = "999.9 kg"
                     .lpClass = "發射神奇寶貝"
+                    .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "25"
                     .lpStandardFriendlyRate = "0"
@@ -27064,6 +27080,7 @@
                     .lpHeight = "0.3 m"
                     .lpWeight = "0.1 kg"
                     .lpClass = "拔刀神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "255"
                     .lpStandardFriendlyRate = "0"
@@ -27098,6 +27115,7 @@
                     .lpHeight = "5.5 m"
                     .lpWeight = "888.0 kg"
                     .lpClass = "異食神奇寶貝"
+                    .lpColor = "黑"
                     .lpSheleter = "---"
                     .lpCatchRate = "15"
                     .lpStandardFriendlyRate = "0"
@@ -27132,6 +27150,7 @@
                     .lpHeight = "2.4 m"
                     .lpWeight = "230.0 kg"
                     .lpClass = "稜鏡神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -27166,6 +27185,7 @@
                     .lpHeight = "1.0 m"
                     .lpWeight = "80.5 kg"
                     .lpClass = "人造神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -27200,6 +27220,7 @@
                     .lpHeight = "0.7 m"
                     .lpWeight = "22.2 kg"
                     .lpClass = "棲影神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -27234,6 +27255,7 @@
                     .lpHeight = "0.6 m"
                     .lpWeight = "1.8 kg"
                     .lpClass = "毒針神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -27268,6 +27290,7 @@
                     .lpHeight = "3.6 m"
                     .lpWeight = "150.0 kg"
                     .lpClass = "毒針神奇寶貝"
+                    .lpColor = "紫"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
                     .lpStandardFriendlyRate = "0"
@@ -27302,6 +27325,7 @@
                     .lpHeight = "5.5 m"
                     .lpWeight = "820.0 kg"
                     .lpClass = "石牆神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "30"
                     .lpStandardFriendlyRate = "0"
@@ -27336,6 +27360,7 @@
                     .lpHeight = "1.8 m"
                     .lpWeight = "13.0 kg"
                     .lpClass = "煙火神奇寶貝"
+                    .lpColor = "白"
                     .lpSheleter = "---"
                     .lpCatchRate = "30"
                     .lpStandardFriendlyRate = "0"
@@ -27370,6 +27395,7 @@
                     .lpHeight = "1.5 m"
                     .lpWeight = "44.5 kg"
                     .lpClass = "奔雷神奇寶貝"
+                    .lpColor = "黃"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -27404,6 +27430,7 @@
                     .lpHeight = "2.5 m"
                     .lpWeight = "800.0 kg"
                     .lpClass = "螺帽神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -27438,6 +27465,7 @@
                     .lpHeight = "0.2 m"
                     .lpWeight = "8.0 kg"
                     .lpClass = "螺帽神奇寶貝"
+                    .lpColor = "灰"
                     .lpSheleter = "---"
                     .lpCatchRate = "3"
                     .lpStandardFriendlyRate = "0"
@@ -31651,6 +31679,211 @@
                 End With
             Case Else
                 lpReturnValue = GetPokemonInformationBWXY(lpPokemonNationalDexNumber)
+        End Select
+        Return lpReturnValue
+    End Function
+    Private Function GetPokemonInformationSS(lpPokemonNationalDexNumber As Integer) As PokemonInfo
+        Dim lpReturnValue As PokemonInfo
+        lpReturnValue = New PokemonInfo
+        lpReturnValue.IsMissingNo = False
+        lpReturnValue.IsMegaAvailable = False
+        lpReturnValue.IsOriginalAvailable = False
+        lpReturnValue.IsMegaORASAvailable = False
+        lpReturnValue.lpImageMegaORASUri = POKEMON_NO_IMAGE
+        lpReturnValue.lpImageMegaXUri = POKEMON_NO_IMAGE
+        lpReturnValue.lpImageMegaYUri = POKEMON_NO_IMAGE
+        lpReturnValue.lpImageOriginalUri = POKEMON_NO_IMAGE
+        If lpPokemonNationalDexNumber <= 0 Or lpPokemonNationalDexNumber > CurrentPokemonCount Then
+            With lpReturnValue
+                .IsMissingNo = True
+            End With
+            With lpReturnValue
+                .lpTitle = "ERROR"
+                .IsNoSex = True
+                .IsMissingNo = True
+                .lpAbility1 = "ERROR"
+                .lpAbility2 = "ERROR"
+                .lpAbilityHidden = "ERROR"
+                With .lpBaseValues
+                    .ATTACK = 255
+                    .DEFEND = 255
+                    .HP = 255
+                    .SPATTACK = 255
+                    .SPDEFEND = 255
+                    .SPEED = 255
+                    .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                End With
+                .lpBasicExpPoint = "ERROR"
+                .lpBornStepsCount = "ERROR"
+                .lpCatchRate = "ERROR"
+                .lpClass = "ERROR"
+                .lpColor = "ERROR"
+                .lpDescription = "ERROR"
+                .lpEggGroup1 = "ERROR"
+                .lpFullLevelExpPoint = "ERROR"
+                .lpHeight = "ERROR"
+                .lpImageFemaleUri = POKEMON_NO_IMAGE
+                .lpImageMaleUri = POKEMON_NO_IMAGE
+                StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
+                .lpNumber = "000"
+                .lpSexRatio = "ERROR"
+                .lpSheleter = "ERROR"
+                .lpStandardFriendlyRate = "ERROR"
+                .lpType = "[ERROR]"
+                .lpWeight = "ERROR"
+                .lpNameCHS = "ERROR"
+                .lpNameCHT = "ERROR"
+                .lpNameENG = "ERROR"
+                .lpNameJPN = "ERROR"
+                .lpNameKOR = "ERROR"
+                .lpNameCHSO = "ERROR"
+                .lpNameCHTO = "ERROR"
+                .lpNameGER = "ERROR"
+                .lpNameFRA = "ERROR"
+                With StateInformation(0)
+                    .IsUniqueDescriptionAvailable = False
+                    .lpAbility1 = "ERROR"
+                    .lpAbility2 = "ERROR"
+                    .lpAbilityHidden = "ERROR"
+                    .lpType = "[ERROR]"
+                    .IsUniqueDescriptionAvailable = False
+                    With .lpBaseStatsValues
+                        .HP = 255
+                        .ATTACK = 255
+                        .DEFEND = 255
+                        .SPATTACK = 255
+                        .SPDEFEND = 255
+                        .SPEED = 255
+                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                    End With
+                End With
+                .lpMegaYInfo = .lpMegaXInfo
+                With StateInformation(0)
+                    .lpAbility1 = "ERROR"
+                    .lpAbility2 = "ERROR"
+                    .lpAbilityHidden = "ERROR"
+                    .lpType = "[ERROR]"
+                    .IsUniqueDescriptionAvailable = False
+                    With .lpBaseStatsValues
+                        .HP = 255
+                        .ATTACK = 255
+                        .DEFEND = 255
+                        .SPATTACK = 255
+                        .SPDEFEND = 255
+                        .SPEED = 255
+                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                    End With
+                End With
+                With .lpOriginalInfo
+                    .lpAbility1 = "ERROR"
+                    .lpAbility2 = "ERROR"
+                    .lpAbilityHidden = "ERROR"
+                    .lpType = "[ERROR]"
+                    With .lpBaseStatsValues
+                        .HP = 255
+                        .ATTACK = 255
+                        .DEFEND = 255
+                        .SPATTACK = 255
+                        .SPDEFEND = 255
+                        .SPEED = 255
+                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                    End With
+                End With
+            End With
+            Return lpReturnValue
+            Exit Function
+        End If
+        With lpReturnValue
+            .lpNameCHT = PokemonNamesCHT.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameCHS = PokemonNamesCHS.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameENG = PokemonNamesENG.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameJPN = PokemonNamesJPN.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameKOR = PokemonNamesKOR.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameGER = PokemonNamesGER.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameFRA = PokemonNamesFRA.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameCHTO = PokemonNamesCHTO.Item(lpPokemonNationalDexNumber - 1)
+            .lpNameCHSO = PokemonNamesCHSO.Item(lpPokemonNationalDexNumber - 1)
+            .lpTitle = CurrentTranslationForCommonUse(lpPokemonNationalDexNumber - 1)
+            .lpExtraInfoURI = "" 'TODO:完成網頁後修改
+            .lpMultiStatesURI = ""
+        End With
+        Select Case lpPokemonNationalDexNumber
+            Case 810
+                With lpReturnValue
+                    .IsMissingNo = False
+                    .IsNoSex = False
+                    .lpNumber = lpPokemonNationalDexNumber
+                    .lpType = "[草]"
+                    .lpDescription = "當牠用特別的木棒敲奏時，能夠給予花草活力的力量就會變成音波擴散開來。會用木棒連續擊打來攻擊。在以飛快的速度擊打的同時，情緒也會變得越來越高漲。"
+                    .lpSexRatio = "7:1"
+                    .lpHeight = "0.3 m"
+                    .lpWeight = "5.0 kg"
+                    .lpClass = "小猴神奇寶貝"
+                    .lpColor = "綠"
+                    .lpSheleter = "---"
+                    .lpCatchRate = "45"
+                    .lpStandardFriendlyRate = "70"
+                    .lpEggGroup1 = "陸地組"
+                    .lpEggGroup2 = "植物組"
+                    .lpBornStepsCount = "5140"
+                    .lpBasicExpPoint = "62"
+                    .lpFullLevelExpPoint = "1059860"
+                    .lpAbility1 = 65
+                    .lpAbility2 = "---"
+                    .lpAbilityHidden = 229
+                    With .lpBaseValues
+                        .HP = 50
+                        .ATTACK = 65
+                        .DEFEND = 50
+                        .SPATTACK = 40
+                        .SPDEFEND = 40
+                        .SPEED = 65
+                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                    End With
+                    .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
+                    .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
+                End With
+            Case 811
+                With lpReturnValue
+                    .IsMissingNo = False
+                    .IsNoSex = False
+                    .lpNumber = lpPokemonNationalDexNumber
+                    .lpType = "[草]"
+                    .lpDescription = "很注重外表，只要有空就會整理翅膀。有時候也會因為過於在意羽毛的整潔而無法戰鬥。將被稱為刃羽的銳利羽毛射向敵人或獵物。基本上百發百中。"
+                    .lpSexRatio = "7:1"
+                    .lpHeight = "0.3 m"
+                    .lpWeight = "5.0 kg"
+                    .lpClass = "小猴神奇寶貝"
+                    .lpColor = "綠"
+                    .lpSheleter = "---"
+                    .lpCatchRate = "45"
+                    .lpStandardFriendlyRate = "70"
+                    .lpEggGroup1 = "陸地組"
+                    .lpEggGroup2 = "植物組"
+                    .lpBornStepsCount = "5140"
+                    .lpBasicExpPoint = "62"
+                    .lpFullLevelExpPoint = "1059860"
+                    .lpAbility1 = 65
+                    .lpAbility2 = "---"
+                    .lpAbilityHidden = 229
+                    With .lpBaseValues
+                        .HP = 50
+                        .ATTACK = 65
+                        .DEFEND = 50
+                        .SPATTACK = 40
+                        .SPDEFEND = 40
+                        .SPEED = 65
+                        .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
+                    End With
+                    .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
+                    .lpImageFemaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
+                    StateInformation(0).lpImagePath = POKEMON_NO_IMAGE
+                    StateInformation(1).lpImagePath = POKEMON_NO_IMAGE
+                End With
+
         End Select
         Return lpReturnValue
     End Function
