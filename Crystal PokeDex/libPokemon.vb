@@ -31823,7 +31823,7 @@
                     .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
-                    .lpStandardFriendlyRate = "70"
+                    .lpStandardFriendlyRate = "---"
                     .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "植物組"
                     .lpBornStepsCount = "5140"
@@ -31852,15 +31852,15 @@
                     .IsNoSex = False
                     .lpNumber = lpPokemonNationalDexNumber
                     .lpType = "[草]"
-                    .lpDescription = "很注重外表，只要有空就會整理翅膀。有時候也會因為過於在意羽毛的整潔而無法戰鬥。將被稱為刃羽的銳利羽毛射向敵人或獵物。基本上百發百中。"
+                    .lpDescription = "越是能用２根木棒敲奏出激烈節拍的啪咚猴，越是能獲得夥伴們的尊敬。打著激烈的節拍戰鬥時，由於過於忘我，甚至不會意識到自己已經把對手打昏了。"
                     .lpSexRatio = "7:1"
-                    .lpHeight = "0.3 m"
-                    .lpWeight = "5.0 kg"
-                    .lpClass = "小猴神奇寶貝"
+                    .lpHeight = "0.7 m"
+                    .lpWeight = "14.0 kg"
+                    .lpClass = "節拍神奇寶貝"
                     .lpColor = "綠"
                     .lpSheleter = "---"
                     .lpCatchRate = "45"
-                    .lpStandardFriendlyRate = "70"
+                    .lpStandardFriendlyRate = "---"
                     .lpEggGroup1 = "陸地組"
                     .lpEggGroup2 = "植物組"
                     .lpBornStepsCount = "5140"
@@ -31870,12 +31870,12 @@
                     .lpAbility2 = "---"
                     .lpAbilityHidden = 229
                     With .lpBaseValues
-                        .HP = 50
-                        .ATTACK = 65
-                        .DEFEND = 50
-                        .SPATTACK = 40
-                        .SPDEFEND = 40
-                        .SPEED = 65
+                        .HP = 70
+                        .ATTACK = 85
+                        .DEFEND = 70
+                        .SPATTACK = 55
+                        .SPDEFEND = 60
+                        .SPEED = 80
                         .TOTAL = .ATTACK + .DEFEND + .HP + .SPATTACK + .SPDEFEND + .SPEED
                     End With
                     .lpImageMaleUri = "/Pokemons/" & lpPokemonNationalDexNumber & ".png"
