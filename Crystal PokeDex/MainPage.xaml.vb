@@ -10,78 +10,12 @@ Partial Public Class MainPage
     ' 建構函式
     Public Sub New()
         InitializeComponent()
-        'IsoSettingsLib = IO.IsolatedStorage.IsolatedStorageSettings.ApplicationSettings
-        'NavigationService.Navigate(New Uri("/PivotPageSettings.xaml", UriKind.RelativeOrAbsolute))
-        'NavigationService.GoBack()
-        'NavigationService.RemoveBackEntry()
-        'If IsoSettingsLib.Keys.Count = 0 Then
-        '    IsoSettingsLib.Add("IsCHS", False)
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        'If IsoSettingsLib.Keys.Count = 1 Then
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        'If IsoSettingsLib.Keys.Count = 2 Then
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        ' 將清單方塊控制項的資料內容設為範例資料
-        'InitalizeList()
-        'InitalizeMainList()
         If IsoSettingsLib.Keys.Count = 0 Then
             IsoSettingsLib.Add("IsCHS", False)
             IsoSettingsLib.Add("IsOfficial", True)
-            'InitFirstLaunch()
-            'With IsoSettingsLib
-            '    .Add("ColorHP", ValueHP)
-            '    .Add("ColorATK", ValueAttack)
-            '    .Add("ColorDEF", ValueDefence)
-            '    .Add("ColorSATK", ValueSpecialAttack)
-            '    .Add("ColorSDEF", ValueSpecialDefence)
-            '    .Add("ColorSPD", ValueSpeed)
-            '    .Add("ColorTotal", ValueTotal)
-            'End With
         End If
         If IsoSettingsLib.Keys.Count = 1 Then
             IsoSettingsLib.Add("IsOfficial", True)
-            'InitFirstLaunch()
-            'With IsoSettingsLib
-            '    .Add("ColorHP", ValueHP)
-            '    .Add("ColorATK", ValueAttack)
-            '    .Add("ColorDEF", ValueDefence)
-            '    .Add("ColorSATK", ValueSpecialAttack)
-            '    .Add("ColorSDEF", ValueSpecialDefence)
-            '    .Add("ColorSPD", ValueSpeed)
-            '    .Add("ColorTotal", ValueTotal)
-            'End With
         End If
         IsSimplifiedChineseEnabled = IsoSettingsLib.Item("IsCHS")
         IsOfficialTranslationEnabled = IsoSettingsLib.Item("IsOfficial")

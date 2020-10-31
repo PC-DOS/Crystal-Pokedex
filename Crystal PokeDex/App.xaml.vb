@@ -85,13 +85,6 @@ Partial Public Class App
         ' 確定此處已保存必要的應用程式狀態。
         IsoSettingsLib.Item("IsOfficial") = IsOfficialTranslationEnabled
         IsoSettingsLib.Item("IsCHS") = IsSimplifiedChineseEnabled
-        'IsoSettingsLib("ColorHP") = ValueHP
-        'IsoSettingsLib("ColorATK") = ValueAttack
-        'IsoSettingsLib("ColorDEF") = ValueDefence
-        'IsoSettingsLib("ColorSATK") = ValueSpecialAttack
-        'IsoSettingsLib("ColorSDEF") = ValueSpecialDefence
-        'IsoSettingsLib("ColorSPD") = ValueSpeed
-        'IsoSettingsLib("ColorTotal") = ValueTotal
     End Sub
 
     ' 關閉應用程式 (例如，使用者按 [上一頁]) 時要執行的程式碼
@@ -99,13 +92,6 @@ Partial Public Class App
     Private Sub Application_Closing(ByVal sender As Object, ByVal e As ClosingEventArgs)
         IsoSettingsLib.Item("IsOfficial") = IsOfficialTranslationEnabled
         IsoSettingsLib.Item("IsCHS") = IsSimplifiedChineseEnabled
-        'IsoSettingsLib("ColorHP") = ValueHP
-        'IsoSettingsLib("ColorATK") = ValueAttack
-        'IsoSettingsLib("ColorDEF") = ValueDefence
-        'IsoSettingsLib("ColorSATK") = ValueSpecialAttack
-        'IsoSettingsLib("ColorSDEF") = ValueSpecialDefence
-        'IsoSettingsLib("ColorSPD") = ValueSpeed
-        'IsoSettingsLib("ColorTotal") = ValueTotal
     End Sub
 
     ' 巡覽失敗時要執行的程式碼
@@ -123,7 +109,7 @@ Partial Public Class App
             Debugger.Break()
         End If
         e.Handled = True
-        'MessageBox.Show(e.ExceptionObject.Message)
+        'MessageBox.Show(e.ExceptionObject.Message & vbCrLf & e.ExceptionObject.Source & vbCrLf & e.ExceptionObject.StackTrace)
     End Sub
 
 #Region "電話應用程式初始化"

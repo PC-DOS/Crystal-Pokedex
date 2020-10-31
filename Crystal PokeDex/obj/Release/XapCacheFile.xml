@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\Crystal_PokeDex_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2020年10月24日 星期六 15:35:57">
-  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.dll" archivePath="Crystal PokeDex.dll" lastWriteTime="2020年10月24日 星期六 15:35:49" />
+﻿<xapCache source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\Crystal_PokeDex_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2020年10月31日 星期六 18:21:10">
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\obj\Release\Crystal PokeDex.dll" archivePath="Crystal PokeDex.dll" lastWriteTime="2020年10月31日 星期六 18:21:01" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\MainPage\Abilities.png" archivePath="Assets\MainPage\Abilities.png" lastWriteTime="2015年08月10日 星期一 12:34:37" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\MainPage\Calc.png" archivePath="Assets\MainPage\Calc.png" lastWriteTime="2015年08月10日 星期一 13:25:11" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\MainPage\CalcBW.png" archivePath="Assets\MainPage\CalcBW.png" lastWriteTime="2019年12月13日 星期五 23:37:49" />
@@ -1212,6 +1212,11 @@
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\891.png" archivePath="PokemonsL\891.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\892.png" archivePath="PokemonsL\892.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\893.png" archivePath="PokemonsL\893.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\894.png" archivePath="PokemonsL\894.png" lastWriteTime="2020年10月31日 星期六 16:43:21" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\895.png" archivePath="PokemonsL\895.png" lastWriteTime="2020年10月31日 星期六 16:48:21" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\896.png" archivePath="PokemonsL\896.png" lastWriteTime="2020年10月31日 星期六 16:53:01" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\897.png" archivePath="PokemonsL\897.png" lastWriteTime="2020年10月31日 星期六 17:02:16" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsL\898.png" archivePath="PokemonsL\898.png" lastWriteTime="2020年10月31日 星期六 16:58:15" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\001.png" archivePath="PokemonsTL\001.png" lastWriteTime="2017年02月03日 星期五 09:43:07" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\002.png" archivePath="PokemonsTL\002.png" lastWriteTime="2017年02月03日 星期五 09:43:10" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\003.png" archivePath="PokemonsTL\003.png" lastWriteTime="2017年02月03日 星期五 09:43:13" />
@@ -2105,6 +2110,11 @@
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\891.png" archivePath="PokemonsTL\891.png" lastWriteTime="2020年07月02日 星期四 18:22:08" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\892.png" archivePath="PokemonsTL\892.png" lastWriteTime="2020年07月02日 星期四 18:22:11" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\893.png" archivePath="PokemonsTL\893.png" lastWriteTime="2020年07月02日 星期四 18:22:14" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\894.png" archivePath="PokemonsTL\894.png" lastWriteTime="2020年10月31日 星期六 17:05:41" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\895.png" archivePath="PokemonsTL\895.png" lastWriteTime="2020年10月31日 星期六 17:05:30" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\896.png" archivePath="PokemonsTL\896.png" lastWriteTime="2020年10月31日 星期六 17:05:18" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\897.png" archivePath="PokemonsTL\897.png" lastWriteTime="2020年10月31日 星期六 17:05:06" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsTL\898.png" archivePath="PokemonsTL\898.png" lastWriteTime="2020年10月31日 星期六 17:05:00" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\001.png" archivePath="PokemonsT\001.png" lastWriteTime="2017年01月27日 星期五 16:38:05" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\002.png" archivePath="PokemonsT\002.png" lastWriteTime="2017年01月27日 星期五 16:38:09" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\003.png" archivePath="PokemonsT\003.png" lastWriteTime="2017年01月27日 星期五 16:38:12" />
@@ -2998,6 +3008,11 @@
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\891.png" archivePath="PokemonsT\891.png" lastWriteTime="2020年07月02日 星期四 18:14:55" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\892.png" archivePath="PokemonsT\892.png" lastWriteTime="2020年07月02日 星期四 18:14:58" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\893.png" archivePath="PokemonsT\893.png" lastWriteTime="2020年07月02日 星期四 18:15:01" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\894.png" archivePath="PokemonsT\894.png" lastWriteTime="2020年10月31日 星期六 17:03:54" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\895.png" archivePath="PokemonsT\895.png" lastWriteTime="2020年10月31日 星期六 17:04:31" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\896.png" archivePath="PokemonsT\896.png" lastWriteTime="2020年10月31日 星期六 17:04:22" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\897.png" archivePath="PokemonsT\897.png" lastWriteTime="2020年10月31日 星期六 17:04:14" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\PokemonsT\898.png" archivePath="PokemonsT\898.png" lastWriteTime="2020年10月31日 星期六 17:04:04" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\001.png" archivePath="Pokemons\001.png" lastWriteTime="2011年05月26日 星期四 04:54:16" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\002.png" archivePath="Pokemons\002.png" lastWriteTime="2011年05月26日 星期四 04:54:18" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\003.00.png" archivePath="Pokemons\003.00.png" lastWriteTime="2014年05月15日 星期四 10:23:36" />
@@ -4158,6 +4173,11 @@
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\891.png" archivePath="Pokemons\891.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\892.png" archivePath="Pokemons\892.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\893.png" archivePath="Pokemons\893.png" lastWriteTime="2020年07月02日 星期四 18:06:18" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\894.png" archivePath="Pokemons\894.png" lastWriteTime="2020年10月31日 星期六 16:43:21" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\895.png" archivePath="Pokemons\895.png" lastWriteTime="2020年10月31日 星期六 16:48:21" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\896.png" archivePath="Pokemons\896.png" lastWriteTime="2020年10月31日 星期六 16:53:01" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\897.png" archivePath="Pokemons\897.png" lastWriteTime="2020年10月31日 星期六 17:02:16" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Pokemons\898.png" archivePath="Pokemons\898.png" lastWriteTime="2020年10月31日 星期六 16:58:15" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\ReadMe.Coding4Fun.Toolkit.txt" archivePath="ReadMe.Coding4Fun.Toolkit.txt" lastWriteTime="2013年08月03日 星期六 16:27:48" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="2013年08月03日 星期六 16:27:48" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="2013年08月03日 星期六 16:27:48" />
@@ -4167,9 +4187,9 @@
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2015年07月06日 星期一 21:12:08" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2015年07月06日 星期一 21:12:08" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2015年07月06日 星期一 21:12:08" />
-  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2020年10月24日 星期六 14:40:55" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2020年10月31日 星期六 18:20:20" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2017年06月09日 星期五 21:14:03" />
   <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2017年02月07日 星期二 15:29:21" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2013年06月05日 星期三 07:38:00" />
-  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\My Project\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2020年10月24日 星期六 14:40:55" />
+  <file source="D:\WPProjects\Crystal PokeDex\Crystal PokeDex\Bin\Release\My Project\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2020年10月31日 星期六 18:20:21" />
 </xapCache>

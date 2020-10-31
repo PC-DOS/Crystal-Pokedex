@@ -18,38 +18,11 @@
     End Sub
 
     Private Sub webBrowser1_LoadCompleted(sender As Object, e As NavigationEventArgs) Handles webBrowser1.LoadCompleted
-        If 25 = 245 Then
-            Exit Sub
-        End If
         Dim trayProgress As ProgressIndicator
         trayProgress = New ProgressIndicator
         With trayProgress
             .IsIndeterminate = True
             .IsVisible = False
-            .Text = "正在載入網頁"
-        End With
-        SystemTray.SetProgressIndicator(Me, trayProgress)
-    End Sub
-
-    Private Sub webBrowser1_Navigated(sender As Object, e As NavigationEventArgs) Handles webBrowser1.Navigated
-        Exit Sub
-        Dim trayProgress As ProgressIndicator
-        trayProgress = New ProgressIndicator
-        With trayProgress
-            .IsIndeterminate = True
-            .IsVisible = False
-            .Text = "正在載入網頁"
-        End With
-        SystemTray.SetProgressIndicator(Me, trayProgress)
-    End Sub
-
-    Private Sub webBrowser1_Navigating(sender As Object, e As NavigatingEventArgs) Handles webBrowser1.Navigating
-        Exit Sub
-        Dim trayProgress As ProgressIndicator
-        trayProgress = New ProgressIndicator
-        With trayProgress
-            .IsIndeterminate = True
-            .IsVisible = True
             .Text = "正在載入網頁"
         End With
         SystemTray.SetProgressIndicator(Me, trayProgress)

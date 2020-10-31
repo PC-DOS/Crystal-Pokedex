@@ -47,6 +47,7 @@ Partial Public Class PageItems
             lpNumInt = CLng(lpNum)
             If (1 <= lpNumInt) And (lpNumInt <= 621) Then
                 lstItems.SelectedIndex = lpNumInt - 1
+                lstItems.ScrollIntoView(lstItems.SelectedItem)
             Else
                 MessageBox.Show("輸入的編號超出允許的範圍。", "錯誤", MessageBoxButton.OK)
                 Exit Sub
@@ -57,34 +58,6 @@ Partial Public Class PageItems
         End If
     End Sub
     Sub SearchRequest_Completed(lpSender As Object, e As PopUpEventArgs(Of String, PopUpResult))
-        If 25 = 245 Then
-            If e.PopUpResult = PopUpResult.Ok Then
-                Dim lpNum As String
-                Dim lpNumInt As Long
-                lpNum = e.Result
-                lpNumInt = CLng(lpNum)
-                If (1 <= lpNumInt) And (lpNumInt <= 721) Then
-                    lstItems.SelectedIndex = lpNumInt - 1
-                Else
-                    MessageBox.Show("輸入的編號超出允許的範圍。", "錯誤", MessageBoxButton.OK)
-                    Exit Sub
-                End If
-                'MessageBox.Show(Me.lstPokemons.SelectedItems.Item(0))
-                Dim imgSelPkMn As Media.Imaging.BitmapImage
-                imgSelPkMn = New Imaging.BitmapImage
-                Dim strSel As String
-                strSel = lstItems.SelectedItems.Item(0).ToString
-                strSel = strSel.Split(" ")(0)
-                If 25 = 245 Then
-                    MessageBox.Show(strSel)
-                End If
-                imgSelPkMn.UriSource = New Uri("/PokemonsL/" & strSel & ".png", UriKind.RelativeOrAbsolute)
-                'imgPokemon.Source = imgSelPkMn
-
-            Else
-                Exit Sub
-            End If
-        End If
         If e.PopUpResult = PopUpResult.Ok Then
             Dim lpIPBSearchRequest As String
             lpIPBSearchRequest = e.Result.Trim

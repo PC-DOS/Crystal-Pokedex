@@ -9,16 +9,12 @@
             IsSimplifiedChineseEnabled = True
             IsoSettingsLib.Item("IsCHS") = True
             GetChineseDisplayConfig(IsSimplifiedChineseEnabled, IsOfficialTranslationEnabled)
-            'InitalizeList()
-            'InitalizeMainList()
             SetCurrentDisplay()
         Else
             IsChineseNames = False
             IsSimplifiedChineseEnabled = False
             IsoSettingsLib.Item("IsCHS") = False
             GetChineseDisplayConfig(IsSimplifiedChineseEnabled, IsOfficialTranslationEnabled)
-            'InitalizeList()
-            'InitalizeMainList()
             SetCurrentDisplay()
         End If
     End Sub
@@ -31,55 +27,6 @@
     End Sub
 
     Private Sub PageSettings_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
-        'IsoSettingsLib = IO.IsolatedStorage.IsolatedStorageSettings.ApplicationSettings
-        'If IsoSettingsLib.Keys.Count = 0 Then
-        '    IsoSettingsLib.Add("IsCHS", False)
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        'If IsoSettingsLib.Keys.Count = 1 Then
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        'If IsoSettingsLib.Keys.Count = 2 Then
-        '    InitFirstLaunch()
-        '    With IsoSettingsLib
-        '        .Add("ColorHP", ValueHP)
-        '        .Add("ColorATK", ValueAttack)
-        '        .Add("ColorDEF", ValueDefence)
-        '        .Add("ColorSATK", ValueSpecialAttack)
-        '        .Add("ColorSDEF", ValueSpecialDefence)
-        '        .Add("ColorSPD", ValueSpeed)
-        '        .Add("ColorTotal", ValueTotal)
-        '    End With
-        'End If
-        'InitColors()
-        'IsoSettingsLib = IO.IsolatedStorage.IsolatedStorageSettings.ApplicationSettings
-        'If IsoSettingsLib.Keys.Count = 0 Then
-        '    IsoSettingsLib.Add("IsCHS", False)
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        'End If
-        'If IsoSettingsLib.Keys.Count = 1 Then
-        '    IsoSettingsLib.Add("IsOfficial", False)
-        'End If
         IsSimplifiedChineseEnabled = IsoSettingsLib.Item("IsCHS")
         IsOfficialTranslationEnabled = IsoSettingsLib.Item("IsOfficial")
         If IsSimplifiedChineseEnabled Then
@@ -112,12 +59,6 @@
         Else
             chkUseOfficial_Moves.IsChecked = False
         End If
-        'IsChineseNames = IsoSettingsLib.Item("IsCHS")
-        'If IsChineseNames Then
-        '    chkUseCHS.IsChecked = True
-        'Else
-        '    chkUseCHS.IsChecked = False
-        'End If
         GridColor.Visibility = System.Windows.Visibility.Collapsed
         Dim OSVersionWPEPO As Version = New Version(8, 10, 0)
         Dim OSVersionGDR3 As Version = New Version(8, 0, 10492)
@@ -143,106 +84,50 @@
         With ValueHP
             If .IsSystemAccent Then
                 prgSVHP.Foreground = prgExp.Foreground
-                'prgSVHP_MORAS.Foreground = prgExp.Foreground
-                'prgSVHP_MX.Foreground = prgExp.Foreground
-                'prgSVHP_MY.Foreground = prgExp.Foreground
-                'prgSVHP_OS.Foreground = prgExp.Foreground
             Else
                 prgSVHP.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVHP_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVHP_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVHP_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVHP_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueAttack
             If .IsSystemAccent Then
                 prgSVATK.Foreground = prgExp.Foreground
-                'prgSVATK_MORAS.Foreground = prgExp.Foreground
-                'prgSVATK_MX.Foreground = prgExp.Foreground
-                'prgSVATK_MY.Foreground = prgExp.Foreground
-                'prgSVATK_OS.Foreground = prgExp.Foreground
             Else
                 prgSVATK.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVATK_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVATK_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVATK_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVATK_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueDefence
             If .IsSystemAccent Then
                 prgSVDEF.Foreground = prgExp.Foreground
-                'prgSVDEF_MORAS.Foreground = prgExp.Foreground
-                'prgSVDEF_MX.Foreground = prgExp.Foreground
-                'prgSVDEF_MY.Foreground = prgExp.Foreground
-                'prgSVDEF_OS.Foreground = prgExp.Foreground
             Else
                 prgSVDEF.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVDEF_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVDEF_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVDEF_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVDEF_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueSpecialAttack
             If .IsSystemAccent Then
                 prgSVSA.Foreground = prgExp.Foreground
-                'prgSVSA_MORAS.Foreground = prgExp.Foreground
-                'prgSVSA_MX.Foreground = prgExp.Foreground
-                'prgSVSA_MY.Foreground = prgExp.Foreground
-                'prgSVSA_OS.Foreground = prgExp.Foreground
             Else
                 prgSVSA.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSA_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSA_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSA_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSA_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueSpecialDefence
             If .IsSystemAccent Then
                 prgSVSD.Foreground = prgExp.Foreground
-                'prgSVSD_MORAS.Foreground = prgExp.Foreground
-                'prgSVSD_MX.Foreground = prgExp.Foreground
-                'prgSVSD_MY.Foreground = prgExp.Foreground
-                'prgSVSD_OS.Foreground = prgExp.Foreground
             Else
                 prgSVSD.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSD_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSD_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSD_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSD_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueSpeed
             If .IsSystemAccent Then
                 prgSVSP.Foreground = prgExp.Foreground
-                'prgSVSP_MORAS.Foreground = prgExp.Foreground
-                'prgSVSP_MX.Foreground = prgExp.Foreground
-                'prgSVSP_MY.Foreground = prgExp.Foreground
-                'prgSVSP_OS.Foreground = prgExp.Foreground
             Else
                 prgSVSP.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSP_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSP_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSP_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVSP_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
         With ValueTotal
             If .IsSystemAccent Then
                 prgSVT.Foreground = prgExp.Foreground
-                'prgSVT_MORAS.Foreground = prgExp.Foreground
-                'prgSVT_MX.Foreground = prgExp.Foreground
-                'prgSVT_MY.Foreground = prgExp.Foreground
-                'prgSVT_OS.Foreground = prgExp.Foreground
             Else
                 prgSVT.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVT_MORAS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVT_MX.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVT_MY.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
-                'prgSVT_OS.Foreground = New SolidColorBrush(Color.FromArgb(255, .ColorSettingsRGB.Red, .ColorSettingsRGB.Green, .ColorSettingsRGB.Blue))
             End If
         End With
     End Sub

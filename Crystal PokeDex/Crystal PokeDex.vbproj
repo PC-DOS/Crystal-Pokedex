@@ -1597,6 +1597,11 @@
     <Content Include="PokemonsL\891.png" />
     <Content Include="PokemonsL\892.png" />
     <Content Include="PokemonsL\893.png" />
+    <Content Include="PokemonsL\894.png" />
+    <Content Include="PokemonsL\895.png" />
+    <Content Include="PokemonsL\896.png" />
+    <Content Include="PokemonsL\897.png" />
+    <Content Include="PokemonsL\898.png" />
     <Content Include="PokemonsTL\001.png" />
     <Content Include="PokemonsTL\002.png" />
     <Content Include="PokemonsTL\003.png" />
@@ -2490,6 +2495,11 @@
     <Content Include="PokemonsTL\891.png" />
     <Content Include="PokemonsTL\892.png" />
     <Content Include="PokemonsTL\893.png" />
+    <Content Include="PokemonsTL\894.png" />
+    <Content Include="PokemonsTL\895.png" />
+    <Content Include="PokemonsTL\896.png" />
+    <Content Include="PokemonsTL\897.png" />
+    <Content Include="PokemonsTL\898.png" />
     <Content Include="PokemonsT\001.png" />
     <Content Include="PokemonsT\002.png" />
     <Content Include="PokemonsT\003.png" />
@@ -3383,6 +3393,11 @@
     <Content Include="PokemonsT\891.png" />
     <Content Include="PokemonsT\892.png" />
     <Content Include="PokemonsT\893.png" />
+    <Content Include="PokemonsT\894.png" />
+    <Content Include="PokemonsT\895.png" />
+    <Content Include="PokemonsT\896.png" />
+    <Content Include="PokemonsT\897.png" />
+    <Content Include="PokemonsT\898.png" />
     <Content Include="Pokemons\001.png" />
     <Content Include="Pokemons\002.png" />
     <Content Include="Pokemons\003.00.png" />
@@ -4543,6 +4558,11 @@
     <Content Include="Pokemons\891.png" />
     <Content Include="Pokemons\892.png" />
     <Content Include="Pokemons\893.png" />
+    <Content Include="Pokemons\894.png" />
+    <Content Include="Pokemons\895.png" />
+    <Content Include="Pokemons\896.png" />
+    <Content Include="Pokemons\897.png" />
+    <Content Include="Pokemons\898.png" />
     <Content Include="ReadMe.Coding4Fun.Toolkit.txt" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />

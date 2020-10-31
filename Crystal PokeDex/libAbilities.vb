@@ -284,6 +284,13 @@
             .Add("在每個回合結束時，會在滿腹花紋和空腹花紋之間交替改變樣子。")
             .Add("有時能比對手先一步行動。")
             .Add("只要是接觸到對手的招式，就可以無視對手的防守效果進行攻擊。")
+            .Add("出場時，會從貝殼撒藥，將我方的能力變化復原。")
+            .Add("電屬性的招式威力會提高。")
+            .Add("龍屬性的招式威力會提高。")
+            .Add("打倒對手時會用冰冷的聲音嘶鳴並提高攻擊。")
+            .Add("打倒對手時會用恐怖的聲音嘶鳴並提高特攻。")
+            .Add("兼具蕾冠王的緊張感和雪暴馬的蒼白嘶鳴這２種特性。")
+            .Add("兼具蕾冠王的緊張感和靈幽馬的漆黑嘶鳴這２種特性。")
         End With
     End Sub
     Private Sub InitializeAbilityNamesENG()
@@ -550,6 +557,13 @@
             .Add("Hunger Switch")
             .Add("Quick Draw")
             .Add("Unseen Fist")
+            .Add("Curious Medicine")
+            .Add("Transistor")
+            .Add("Dragon's Maw")
+            .Add("Chilling Neigh")
+            .Add("Grim Neigh")
+            .Add("As One")
+            .Add("As One")
         End With
     End Sub
     Private Sub InitializeAbilityNamesJPN()
@@ -816,6 +830,13 @@
             .Add("はらぺこスイッチ")
             .Add("クイックドロウ")
             .Add("ふかしのこぶし")
+            .Add("きみょうなくすり")
+            .Add("トランジスタ")
+            .Add("りゅうのあぎと")
+            .Add("しろのいななき")
+            .Add("くろのいななき")
+            .Add("じんばいったい")
+            .Add("じんばいったい")
         End With
     End Sub
     Private Sub InitializeAbilityNamesInformalCHT()
@@ -1082,6 +1103,13 @@
             .Add("飽了又餓")
             .Add("速擊")
             .Add("無形拳")
+            .Add("怪藥")
+            .Add("電晶體")
+            .Add("龍顎")
+            .Add("蒼白嘶鳴")
+            .Add("漆黑嘶鳴")
+            .Add("人馬一體")
+            .Add("人馬一體")
         End With
     End Sub
     Private Sub InitializeAbilityNamesInformalCHS()
@@ -1348,6 +1376,13 @@
             .Add("饱了又饿")
             .Add("速击")
             .Add("无形拳")
+            .Add("怪药")
+            .Add("电晶体")
+            .Add("龙颚")
+            .Add("苍白嘶鸣")
+            .Add("漆黑嘶鸣")
+            .Add("人马一体")
+            .Add("人马一体")
         End With
     End Sub
     Private Sub InitializeAbilityNamesOfficialCHT()
@@ -1614,6 +1649,13 @@
             .Add("飽了又餓")
             .Add("速擊")
             .Add("無形拳")
+            .Add("怪藥")
+            .Add("電晶體")
+            .Add("龍顎")
+            .Add("蒼白嘶鳴")
+            .Add("漆黑嘶鳴")
+            .Add("人馬一體")
+            .Add("人馬一體")
         End With
     End Sub
     Private Sub InitializeAbilityNamesOfficialCHS()
@@ -1880,6 +1922,13 @@
             .Add("饱了又饿")
             .Add("速击")
             .Add("无形拳")
+            .Add("怪药")
+            .Add("电晶体")
+            .Add("龙颚")
+            .Add("苍白嘶鸣")
+            .Add("漆黑嘶鸣")
+            .Add("人马一体")
+            .Add("人马一体")
         End With
     End Sub
     Private Sub InitializeListAbilityInformalCHT()
@@ -2146,6 +2195,13 @@
             .Add("258     飽了又餓")
             .Add("259     速擊")
             .Add("260     無形拳")
+            .Add("261     怪藥")
+            .Add("262     電晶體")
+            .Add("263     龍顎")
+            .Add("264     蒼白嘶鳴")
+            .Add("265     漆黑嘶鳴")
+            .Add("266     人馬一體")
+            .Add("267     人馬一體")
         End With
     End Sub
     Private Sub InitializeListAbilityInformalCHS()
@@ -2412,6 +2468,13 @@
             .Add("258     饱了又饿")
             .Add("259     速击")
             .Add("260     无形拳")
+            .Add("261     怪药")
+            .Add("262     电晶体")
+            .Add("263     龙颚")
+            .Add("264     苍白嘶鸣")
+            .Add("265     漆黑嘶鸣")
+            .Add("266     人马一体")
+            .Add("267     人马一体")
         End With
     End Sub
     Private Sub InitializeListAbilityOfficialCHT()
@@ -2705,6 +2768,13 @@
             .Add("258     飽了又餓")
             .Add("259     速擊")
             .Add("260     無形拳")
+            .Add("261     怪藥")
+            .Add("262     電晶體")
+            .Add("263     龍顎")
+            .Add("264     蒼白嘶鳴")
+            .Add("265     漆黑嘶鳴")
+            .Add("266     人馬一體")
+            .Add("267     人馬一體")
         End With
     End Sub
     Private Sub InitializeListAbilityOfficialCHS()
@@ -2971,6 +3041,13 @@
             .Add("258     饱了又饿")
             .Add("259     速击")
             .Add("260     无形拳")
+            .Add("261     怪药")
+            .Add("262     电晶体")
+            .Add("263     龙颚")
+            .Add("264     苍白嘶鸣")
+            .Add("265     漆黑嘶鸣")
+            .Add("266     人马一体")
+            .Add("267     人马一体")
         End With
     End Sub
     Public Sub InitAbilitySettings()
